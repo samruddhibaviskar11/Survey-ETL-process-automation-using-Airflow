@@ -1,0 +1,9 @@
+pymongo
+psycopg2-binary
+sqlalchemy
+nltk
+minio
+
+
+
+
