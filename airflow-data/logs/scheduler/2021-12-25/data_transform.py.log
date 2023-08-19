@@ -1,0 +1,797 @@
+[2021-12-25 11:11:28,826] {scheduler_job.py:182} INFO - Started process (PID=55) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:11:28,829] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:11:28,831] {logging_mixin.py:104} INFO - [2021-12-25 11:11:28,831] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:11:28,965] {logging_mixin.py:104} INFO - [2021-12-25 11:11:28,941] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/data_transform.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_transform.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-12-25 11:11:28,991] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:11:29,071] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 0.254 seconds
+[2021-12-25 11:11:59,419] {scheduler_job.py:182} INFO - Started process (PID=62) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:11:59,466] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:11:59,479] {logging_mixin.py:104} INFO - [2021-12-25 11:11:59,479] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:11:59,806] {logging_mixin.py:104} INFO - [2021-12-25 11:11:59,799] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/data_transform.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_transform.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-12-25 11:11:59,813] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:11:59,870] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 0.485 seconds
+[2021-12-25 11:12:30,072] {scheduler_job.py:182} INFO - Started process (PID=69) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:12:30,076] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:12:30,078] {logging_mixin.py:104} INFO - [2021-12-25 11:12:30,078] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:12:30,129] {logging_mixin.py:104} INFO - [2021-12-25 11:12:30,122] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/data_transform.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_transform.py", line 7, in <module>
+    from pymongo import MongoClient
+ModuleNotFoundError: No module named 'pymongo'
+[2021-12-25 11:12:30,135] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:12:30,168] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 0.105 seconds
+[2021-12-25 11:14:24,044] {scheduler_job.py:182} INFO - Started process (PID=23) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:14:24,061] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:14:24,070] {logging_mixin.py:104} INFO - [2021-12-25 11:14:24,070] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:14:31,897] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:14:35,475] {logging_mixin.py:104} WARNING - [nltk_data]   Unzipping tokenizers/punkt.zip.
+[2021-12-25 11:14:37,741] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:14:38,091] {logging_mixin.py:104} WARNING - [nltk_data]   Unzipping corpora/stopwords.zip.
+[2021-12-25 11:14:38,315] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:14:38,339] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:14:38,418] {logging_mixin.py:104} INFO - [2021-12-25 11:14:38,418] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:14:38,445] {logging_mixin.py:104} INFO - [2021-12-25 11:14:38,445] {dag.py:1837} INFO - Creating ORM DAG for data_transform
+[2021-12-25 11:14:38,524] {logging_mixin.py:104} INFO - [2021-12-25 11:14:38,522] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-24 00:00:00+00:00
+[2021-12-25 11:14:38,635] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 14.602 seconds
+[2021-12-25 11:15:08,738] {scheduler_job.py:182} INFO - Started process (PID=30) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:15:08,743] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:15:08,745] {logging_mixin.py:104} INFO - [2021-12-25 11:15:08,745] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:15:11,556] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:15:11,734] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:15:11,751] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:15:11,753] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:15:12,107] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:15:12,164] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:15:12,282] {logging_mixin.py:104} INFO - [2021-12-25 11:15:12,282] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:15:12,391] {logging_mixin.py:104} INFO - [2021-12-25 11:15:12,391] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-24 00:00:00+00:00
+[2021-12-25 11:15:13,514] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 4.783 seconds
+[2021-12-25 11:15:44,421] {scheduler_job.py:182} INFO - Started process (PID=37) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:15:44,427] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:15:44,446] {logging_mixin.py:104} INFO - [2021-12-25 11:15:44,445] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:15:47,072] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:15:47,160] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:15:47,165] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:15:47,169] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:15:47,321] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:15:47,349] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:15:47,400] {logging_mixin.py:104} INFO - [2021-12-25 11:15:47,399] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:15:47,491] {logging_mixin.py:104} INFO - [2021-12-25 11:15:47,490] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-24 00:00:00+00:00
+[2021-12-25 11:15:47,518] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 3.104 seconds
+[2021-12-25 11:16:36,717] {scheduler_job.py:182} INFO - Started process (PID=41) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:16:36,789] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:16:36,884] {logging_mixin.py:104} INFO - [2021-12-25 11:16:36,884] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:16:44,156] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:16:44,318] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:16:44,319] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:16:44,321] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:16:44,511] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:16:44,573] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:16:44,713] {logging_mixin.py:104} INFO - [2021-12-25 11:16:44,713] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:16:44,813] {logging_mixin.py:104} INFO - [2021-12-25 11:16:44,813] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-24 00:00:00+00:00
+[2021-12-25 11:16:44,849] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 8.151 seconds
+[2021-12-25 11:17:15,628] {scheduler_job.py:182} INFO - Started process (PID=47) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:17:15,631] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:17:15,632] {logging_mixin.py:104} INFO - [2021-12-25 11:17:15,632] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:17:17,299] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:17:17,346] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:17:17,347] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:17:17,348] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:17:17,428] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:17:17,442] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:17:17,481] {logging_mixin.py:104} INFO - [2021-12-25 11:17:17,481] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:17:17,538] {logging_mixin.py:104} INFO - [2021-12-25 11:17:17,538] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-24 00:00:00+00:00
+[2021-12-25 11:17:17,570] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 1.948 seconds
+[2021-12-25 11:17:47,924] {scheduler_job.py:182} INFO - Started process (PID=54) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:17:47,940] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:17:47,943] {logging_mixin.py:104} INFO - [2021-12-25 11:17:47,942] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:17:54,789] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:17:54,935] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:17:54,947] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:17:54,964] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:17:55,375] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:17:55,629] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:17:55,766] {logging_mixin.py:104} INFO - [2021-12-25 11:17:55,766] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:17:55,955] {logging_mixin.py:104} INFO - [2021-12-25 11:17:55,955] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-24 00:00:00+00:00
+[2021-12-25 11:17:56,079] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 8.168 seconds
+[2021-12-25 11:18:26,432] {scheduler_job.py:182} INFO - Started process (PID=60) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:18:26,442] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:18:26,444] {logging_mixin.py:104} INFO - [2021-12-25 11:18:26,444] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:18:28,401] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:18:28,440] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:18:28,440] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:18:28,441] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:18:28,524] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:18:28,541] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:18:28,590] {logging_mixin.py:104} INFO - [2021-12-25 11:18:28,589] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:18:28,654] {logging_mixin.py:104} INFO - [2021-12-25 11:18:28,654] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-24 00:00:00+00:00
+[2021-12-25 11:18:28,689] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 2.267 seconds
+[2021-12-25 11:18:59,052] {scheduler_job.py:182} INFO - Started process (PID=67) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:18:59,055] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:18:59,058] {logging_mixin.py:104} INFO - [2021-12-25 11:18:59,058] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:19:02,802] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:19:02,869] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:19:02,870] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:19:02,872] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:19:03,001] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:19:03,019] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:19:03,051] {logging_mixin.py:104} INFO - [2021-12-25 11:19:03,051] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:19:03,111] {logging_mixin.py:104} INFO - [2021-12-25 11:19:03,111] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-24 00:00:00+00:00
+[2021-12-25 11:19:03,144] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 4.113 seconds
+[2021-12-25 11:19:33,655] {scheduler_job.py:182} INFO - Started process (PID=74) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:19:33,659] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:19:33,662] {logging_mixin.py:104} INFO - [2021-12-25 11:19:33,662] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:19:36,046] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:19:36,157] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:19:36,158] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:19:36,160] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:19:36,386] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:19:36,427] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:19:36,540] {logging_mixin.py:104} INFO - [2021-12-25 11:19:36,540] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:19:36,681] {logging_mixin.py:104} INFO - [2021-12-25 11:19:36,681] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-24 00:00:00+00:00
+[2021-12-25 11:19:36,710] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 3.065 seconds
+[2021-12-25 11:20:06,965] {scheduler_job.py:182} INFO - Started process (PID=81) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:20:06,969] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:20:06,973] {logging_mixin.py:104} INFO - [2021-12-25 11:20:06,971] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:20:08,738] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:20:08,791] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:20:08,792] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:20:08,795] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:20:08,877] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:20:08,896] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:20:08,973] {logging_mixin.py:104} INFO - [2021-12-25 11:20:08,973] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:20:09,083] {logging_mixin.py:104} INFO - [2021-12-25 11:20:09,082] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-24 00:00:00+00:00
+[2021-12-25 11:20:09,326] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 2.377 seconds
+[2021-12-25 11:20:39,723] {scheduler_job.py:182} INFO - Started process (PID=88) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:20:39,725] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:20:39,726] {logging_mixin.py:104} INFO - [2021-12-25 11:20:39,726] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:20:40,741] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:20:40,776] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:20:40,777] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:20:40,778] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:20:40,859] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:20:40,875] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:20:40,905] {logging_mixin.py:104} INFO - [2021-12-25 11:20:40,905] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:20:40,941] {logging_mixin.py:104} INFO - [2021-12-25 11:20:40,941] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-24 00:00:00+00:00
+[2021-12-25 11:20:40,956] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 1.239 seconds
+[2021-12-25 11:21:11,163] {scheduler_job.py:182} INFO - Started process (PID=92) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:21:11,167] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:21:11,170] {logging_mixin.py:104} INFO - [2021-12-25 11:21:11,170] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:21:14,523] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:21:14,570] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:21:14,571] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:21:14,573] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:21:14,658] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:21:14,672] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:21:14,712] {logging_mixin.py:104} INFO - [2021-12-25 11:21:14,712] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:21:14,793] {logging_mixin.py:104} INFO - [2021-12-25 11:21:14,793] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-24 00:00:00+00:00
+[2021-12-25 11:21:14,821] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 3.663 seconds
+[2021-12-25 11:21:47,141] {scheduler_job.py:182} INFO - Started process (PID=100) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:21:47,145] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:21:47,147] {logging_mixin.py:104} INFO - [2021-12-25 11:21:47,146] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:21:50,573] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:21:50,634] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:21:50,635] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:21:50,637] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:21:50,774] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:21:50,823] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:21:50,882] {logging_mixin.py:104} INFO - [2021-12-25 11:21:50,882] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:21:50,954] {logging_mixin.py:104} INFO - [2021-12-25 11:21:50,954] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-24 00:00:00+00:00
+[2021-12-25 11:21:50,991] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 3.857 seconds
+[2021-12-25 11:22:21,487] {scheduler_job.py:182} INFO - Started process (PID=106) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:22:21,490] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:22:21,492] {logging_mixin.py:104} INFO - [2021-12-25 11:22:21,491] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:22:23,472] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:22:23,513] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:22:23,514] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:22:23,515] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:22:23,573] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:22:23,584] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:22:23,611] {logging_mixin.py:104} INFO - [2021-12-25 11:22:23,611] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:22:23,656] {logging_mixin.py:104} INFO - [2021-12-25 11:22:23,656] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-24 00:00:00+00:00
+[2021-12-25 11:22:23,670] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 2.191 seconds
+[2021-12-25 11:22:54,421] {scheduler_job.py:182} INFO - Started process (PID=113) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:22:54,425] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:22:54,427] {logging_mixin.py:104} INFO - [2021-12-25 11:22:54,426] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:22:55,768] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:22:55,807] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:22:55,808] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:22:55,809] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:22:55,877] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:22:55,906] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:22:55,947] {logging_mixin.py:104} INFO - [2021-12-25 11:22:55,947] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:22:56,006] {logging_mixin.py:104} INFO - [2021-12-25 11:22:56,005] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-24 00:00:00+00:00
+[2021-12-25 11:22:56,025] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 1.613 seconds
+[2021-12-25 11:23:26,277] {scheduler_job.py:182} INFO - Started process (PID=120) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:23:26,280] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:23:26,282] {logging_mixin.py:104} INFO - [2021-12-25 11:23:26,282] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:23:28,418] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:23:28,456] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:23:28,456] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:23:28,457] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:23:28,538] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:23:28,555] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:23:28,590] {logging_mixin.py:104} INFO - [2021-12-25 11:23:28,590] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:23:28,624] {logging_mixin.py:104} INFO - [2021-12-25 11:23:28,623] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-24 00:00:00+00:00
+[2021-12-25 11:23:28,643] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 2.375 seconds
+[2021-12-25 11:23:58,957] {scheduler_job.py:182} INFO - Started process (PID=127) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:23:58,965] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:23:58,967] {logging_mixin.py:104} INFO - [2021-12-25 11:23:58,967] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:24:05,597] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:24:05,728] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:24:05,730] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:24:05,733] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:24:05,980] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:24:06,042] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:24:06,173] {logging_mixin.py:104} INFO - [2021-12-25 11:24:06,173] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:24:06,339] {logging_mixin.py:104} INFO - [2021-12-25 11:24:06,338] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-24 00:00:00+00:00
+[2021-12-25 11:24:06,486] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 7.550 seconds
+[2021-12-25 11:24:36,989] {scheduler_job.py:182} INFO - Started process (PID=133) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:24:36,992] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:24:36,993] {logging_mixin.py:104} INFO - [2021-12-25 11:24:36,993] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:24:38,209] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:24:38,241] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:24:38,242] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:24:38,243] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:24:38,311] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:24:38,323] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:24:38,350] {logging_mixin.py:104} INFO - [2021-12-25 11:24:38,350] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:24:38,384] {logging_mixin.py:104} INFO - [2021-12-25 11:24:38,383] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-24 00:00:00+00:00
+[2021-12-25 11:24:38,401] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 1.419 seconds
+[2021-12-25 11:25:08,672] {scheduler_job.py:182} INFO - Started process (PID=140) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:25:08,674] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:25:08,676] {logging_mixin.py:104} INFO - [2021-12-25 11:25:08,675] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:25:09,611] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:25:09,641] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:25:09,641] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:25:09,642] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:25:09,695] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:25:09,707] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:25:09,733] {logging_mixin.py:104} INFO - [2021-12-25 11:25:09,733] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:25:09,764] {logging_mixin.py:104} INFO - [2021-12-25 11:25:09,764] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-24 00:00:00+00:00
+[2021-12-25 11:25:09,778] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 1.111 seconds
+[2021-12-25 11:25:40,001] {scheduler_job.py:182} INFO - Started process (PID=144) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:25:40,004] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:25:40,006] {logging_mixin.py:104} INFO - [2021-12-25 11:25:40,006] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:25:41,129] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:25:41,186] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:25:41,187] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:25:41,190] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:25:41,407] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:25:41,438] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:25:41,572] {logging_mixin.py:104} INFO - [2021-12-25 11:25:41,571] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:25:41,709] {logging_mixin.py:104} INFO - [2021-12-25 11:25:41,709] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-24 00:00:00+00:00
+[2021-12-25 11:25:41,749] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 1.756 seconds
+[2021-12-25 11:26:11,828] {scheduler_job.py:182} INFO - Started process (PID=150) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:26:11,830] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:26:11,832] {logging_mixin.py:104} INFO - [2021-12-25 11:26:11,832] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:26:13,288] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:26:13,320] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:26:13,321] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:26:13,322] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:26:13,376] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:26:13,386] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:26:13,415] {logging_mixin.py:104} INFO - [2021-12-25 11:26:13,415] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:26:13,447] {logging_mixin.py:104} INFO - [2021-12-25 11:26:13,447] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-24 00:00:00+00:00
+[2021-12-25 11:26:13,461] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 1.638 seconds
+[2021-12-25 11:26:43,612] {scheduler_job.py:182} INFO - Started process (PID=157) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:26:43,615] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:26:43,616] {logging_mixin.py:104} INFO - [2021-12-25 11:26:43,616] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:26:44,525] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:26:44,555] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:26:44,555] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:26:44,556] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:26:44,619] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:26:44,631] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:26:44,655] {logging_mixin.py:104} INFO - [2021-12-25 11:26:44,655] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:26:44,685] {logging_mixin.py:104} INFO - [2021-12-25 11:26:44,685] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-24 00:00:00+00:00
+[2021-12-25 11:26:44,701] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 1.094 seconds
+[2021-12-25 11:28:07,270] {scheduler_job.py:182} INFO - Started process (PID=24) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:28:07,293] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:28:07,305] {logging_mixin.py:104} INFO - [2021-12-25 11:28:07,304] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:28:15,132] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:28:17,480] {logging_mixin.py:104} WARNING - [nltk_data]   Unzipping tokenizers/punkt.zip.
+[2021-12-25 11:28:22,755] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:28:22,941] {logging_mixin.py:104} WARNING - [nltk_data]   Unzipping corpora/stopwords.zip.
+[2021-12-25 11:28:23,208] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:28:23,303] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:28:23,430] {logging_mixin.py:104} INFO - [2021-12-25 11:28:23,430] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:28:23,583] {logging_mixin.py:104} INFO - [2021-12-25 11:28:23,578] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-24 00:00:00+00:00
+[2021-12-25 11:28:23,617] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 16.416 seconds
+[2021-12-25 11:28:53,946] {scheduler_job.py:182} INFO - Started process (PID=31) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:28:53,950] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:28:53,952] {logging_mixin.py:104} INFO - [2021-12-25 11:28:53,952] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:28:56,581] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:28:56,678] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:28:56,685] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:28:56,690] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:28:56,971] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:28:57,045] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:28:57,201] {logging_mixin.py:104} INFO - [2021-12-25 11:28:57,200] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:28:57,536] {logging_mixin.py:104} INFO - [2021-12-25 11:28:57,536] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-24 00:00:00+00:00
+[2021-12-25 11:28:57,746] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 3.826 seconds
+[2021-12-25 11:29:28,054] {scheduler_job.py:182} INFO - Started process (PID=38) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:29:28,057] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:29:28,060] {logging_mixin.py:104} INFO - [2021-12-25 11:29:28,059] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:29:29,322] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:29:29,366] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:29:29,367] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:29:29,368] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:29:29,430] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:29:29,442] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:29:29,469] {logging_mixin.py:104} INFO - [2021-12-25 11:29:29,469] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:29:29,507] {logging_mixin.py:104} INFO - [2021-12-25 11:29:29,507] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-24 00:00:00+00:00
+[2021-12-25 11:29:29,523] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 1.485 seconds
+[2021-12-25 11:29:59,697] {scheduler_job.py:182} INFO - Started process (PID=45) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:29:59,699] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:29:59,701] {logging_mixin.py:104} INFO - [2021-12-25 11:29:59,701] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:30:01,025] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:30:01,063] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:30:01,064] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:30:01,065] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:30:01,137] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:30:01,150] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:30:01,186] {logging_mixin.py:104} INFO - [2021-12-25 11:30:01,185] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:30:01,238] {logging_mixin.py:104} INFO - [2021-12-25 11:30:01,238] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-24 00:00:00+00:00
+[2021-12-25 11:30:01,259] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 1.569 seconds
+[2021-12-25 11:30:36,781] {scheduler_job.py:182} INFO - Started process (PID=52) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:30:36,785] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:30:36,789] {logging_mixin.py:104} INFO - [2021-12-25 11:30:36,788] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:30:38,656] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:30:38,715] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:30:38,716] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:30:38,717] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:30:38,799] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:30:38,822] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:30:38,874] {logging_mixin.py:104} INFO - [2021-12-25 11:30:38,874] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:30:38,924] {logging_mixin.py:104} INFO - [2021-12-25 11:30:38,924] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-24 00:00:00+00:00
+[2021-12-25 11:30:38,939] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 2.167 seconds
+[2021-12-25 11:31:09,718] {scheduler_job.py:182} INFO - Started process (PID=56) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:31:09,721] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:31:09,722] {logging_mixin.py:104} INFO - [2021-12-25 11:31:09,722] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:31:10,724] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:31:10,764] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:31:10,765] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:31:10,766] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:31:10,823] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:31:10,832] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:31:10,864] {logging_mixin.py:104} INFO - [2021-12-25 11:31:10,864] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:31:10,909] {logging_mixin.py:104} INFO - [2021-12-25 11:31:10,908] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-24 00:00:00+00:00
+[2021-12-25 11:31:10,922] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 1.208 seconds
+[2021-12-25 11:31:41,064] {scheduler_job.py:182} INFO - Started process (PID=62) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:31:41,067] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:31:41,068] {logging_mixin.py:104} INFO - [2021-12-25 11:31:41,068] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:31:42,155] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:31:42,195] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:31:42,195] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:31:42,197] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:31:42,265] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:31:42,278] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:31:42,314] {logging_mixin.py:104} INFO - [2021-12-25 11:31:42,314] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:31:42,350] {logging_mixin.py:104} INFO - [2021-12-25 11:31:42,350] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-24 00:00:00+00:00
+[2021-12-25 11:31:42,365] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 1.306 seconds
+[2021-12-25 11:32:12,991] {scheduler_job.py:182} INFO - Started process (PID=68) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:32:12,994] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:32:12,996] {logging_mixin.py:104} INFO - [2021-12-25 11:32:12,995] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:32:14,359] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:32:14,447] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:32:14,448] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:32:14,450] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:32:14,627] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:32:14,644] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:32:14,703] {logging_mixin.py:104} INFO - [2021-12-25 11:32:14,703] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:32:14,759] {logging_mixin.py:104} INFO - [2021-12-25 11:32:14,758] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-24 00:00:00+00:00
+[2021-12-25 11:32:14,775] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 1.791 seconds
+[2021-12-25 11:32:44,904] {scheduler_job.py:182} INFO - Started process (PID=75) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:32:44,906] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:32:44,908] {logging_mixin.py:104} INFO - [2021-12-25 11:32:44,907] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:32:45,898] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:32:45,931] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:32:45,932] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:32:45,933] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:32:45,984] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:32:45,994] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:32:46,027] {logging_mixin.py:104} INFO - [2021-12-25 11:32:46,026] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:32:46,057] {logging_mixin.py:104} INFO - [2021-12-25 11:32:46,057] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-24 00:00:00+00:00
+[2021-12-25 11:32:46,080] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 1.180 seconds
+[2021-12-25 11:33:16,165] {scheduler_job.py:182} INFO - Started process (PID=82) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:33:16,167] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:33:16,169] {logging_mixin.py:104} INFO - [2021-12-25 11:33:16,168] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:33:17,134] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:33:17,169] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:33:17,169] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:33:17,171] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:33:17,225] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:33:17,235] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:33:17,259] {logging_mixin.py:104} INFO - [2021-12-25 11:33:17,258] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:33:17,289] {logging_mixin.py:104} INFO - [2021-12-25 11:33:17,289] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-24 00:00:00+00:00
+[2021-12-25 11:33:17,303] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 1.143 seconds
+[2021-12-25 11:33:47,518] {scheduler_job.py:182} INFO - Started process (PID=89) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:33:47,521] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:33:47,522] {logging_mixin.py:104} INFO - [2021-12-25 11:33:47,522] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:33:49,195] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:33:49,230] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:33:49,231] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:33:49,232] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:33:49,284] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:33:49,294] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:33:49,318] {logging_mixin.py:104} INFO - [2021-12-25 11:33:49,318] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:33:49,357] {logging_mixin.py:104} INFO - [2021-12-25 11:33:49,357] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-24 00:00:00+00:00
+[2021-12-25 11:33:49,375] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 1.862 seconds
+[2021-12-25 11:34:20,206] {scheduler_job.py:182} INFO - Started process (PID=96) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:34:20,208] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:34:20,210] {logging_mixin.py:104} INFO - [2021-12-25 11:34:20,209] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:34:21,375] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:34:21,417] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:34:21,418] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:34:21,419] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:34:21,516] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:34:21,552] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:34:21,590] {logging_mixin.py:104} INFO - [2021-12-25 11:34:21,589] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:34:21,658] {logging_mixin.py:104} INFO - [2021-12-25 11:34:21,658] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-24 00:00:00+00:00
+[2021-12-25 11:34:21,688] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 1.488 seconds
+[2021-12-25 11:34:51,834] {scheduler_job.py:182} INFO - Started process (PID=103) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:34:51,837] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:34:51,839] {logging_mixin.py:104} INFO - [2021-12-25 11:34:51,839] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:34:53,502] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:34:53,562] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:34:53,563] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:34:53,565] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:34:53,713] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:34:53,729] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:34:53,776] {logging_mixin.py:104} INFO - [2021-12-25 11:34:53,776] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:34:53,826] {logging_mixin.py:104} INFO - [2021-12-25 11:34:53,826] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-24 00:00:00+00:00
+[2021-12-25 11:34:53,842] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 2.014 seconds
+[2021-12-25 11:35:24,443] {scheduler_job.py:182} INFO - Started process (PID=107) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:35:24,446] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:35:24,451] {logging_mixin.py:104} INFO - [2021-12-25 11:35:24,451] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:35:29,032] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:35:29,160] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:35:29,192] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:35:29,206] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:35:29,471] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:35:29,505] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:35:29,602] {logging_mixin.py:104} INFO - [2021-12-25 11:35:29,602] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:35:29,737] {logging_mixin.py:104} INFO - [2021-12-25 11:35:29,737] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-25 00:00:00+00:00
+[2021-12-25 11:35:29,782] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 5.349 seconds
+[2021-12-25 11:35:59,946] {scheduler_job.py:182} INFO - Started process (PID=113) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:35:59,948] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:35:59,949] {logging_mixin.py:104} INFO - [2021-12-25 11:35:59,949] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:36:01,574] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:36:01,646] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:36:01,647] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:36:01,648] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:36:01,807] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:36:01,827] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:36:01,861] {logging_mixin.py:104} INFO - [2021-12-25 11:36:01,860] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:36:01,895] {logging_mixin.py:104} INFO - [2021-12-25 11:36:01,895] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-25 00:00:00+00:00
+[2021-12-25 11:36:02,012] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 2.072 seconds
+[2021-12-25 11:36:32,869] {scheduler_job.py:182} INFO - Started process (PID=120) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:36:32,871] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:36:32,872] {logging_mixin.py:104} INFO - [2021-12-25 11:36:32,872] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:36:34,716] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:36:34,750] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:36:34,751] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:36:34,752] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:36:34,806] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:36:34,818] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:36:34,849] {logging_mixin.py:104} INFO - [2021-12-25 11:36:34,849] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:36:34,905] {logging_mixin.py:104} INFO - [2021-12-25 11:36:34,905] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-25 00:00:00+00:00
+[2021-12-25 11:36:34,921] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 2.059 seconds
+[2021-12-25 11:37:05,537] {scheduler_job.py:182} INFO - Started process (PID=127) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:37:05,541] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:37:05,543] {logging_mixin.py:104} INFO - [2021-12-25 11:37:05,543] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:37:06,996] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:37:07,038] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:37:07,039] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:37:07,040] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:37:07,113] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:37:07,126] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:37:07,172] {logging_mixin.py:104} INFO - [2021-12-25 11:37:07,172] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:37:07,206] {logging_mixin.py:104} INFO - [2021-12-25 11:37:07,205] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-25 00:00:00+00:00
+[2021-12-25 11:37:07,229] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 1.699 seconds
+[2021-12-25 11:37:38,056] {scheduler_job.py:182} INFO - Started process (PID=133) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:37:38,063] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:37:38,066] {logging_mixin.py:104} INFO - [2021-12-25 11:37:38,066] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:37:40,814] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:37:40,853] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:37:40,854] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:37:40,855] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:37:40,952] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:37:40,970] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:37:41,016] {logging_mixin.py:104} INFO - [2021-12-25 11:37:41,015] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:37:41,165] {logging_mixin.py:104} INFO - [2021-12-25 11:37:41,165] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-25 00:00:00+00:00
+[2021-12-25 11:37:41,215] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 3.180 seconds
+[2021-12-25 11:38:11,843] {scheduler_job.py:182} INFO - Started process (PID=140) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:38:11,846] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:38:11,847] {logging_mixin.py:104} INFO - [2021-12-25 11:38:11,847] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:38:13,304] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:38:13,367] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:38:13,368] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:38:13,371] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:38:13,579] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:38:13,606] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:38:13,697] {logging_mixin.py:104} INFO - [2021-12-25 11:38:13,696] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:38:13,812] {logging_mixin.py:104} INFO - [2021-12-25 11:38:13,812] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-25 00:00:00+00:00
+[2021-12-25 11:38:13,843] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 2.007 seconds
+[2021-12-25 11:38:44,358] {scheduler_job.py:182} INFO - Started process (PID=144) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:38:44,375] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:38:44,394] {logging_mixin.py:104} INFO - [2021-12-25 11:38:44,382] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:38:49,860] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:38:49,919] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:38:49,920] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:38:49,928] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:38:50,127] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:38:50,163] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:38:50,283] {logging_mixin.py:104} INFO - [2021-12-25 11:38:50,283] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:38:50,391] {logging_mixin.py:104} INFO - [2021-12-25 11:38:50,391] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-25 00:00:00+00:00
+[2021-12-25 11:38:50,457] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 6.140 seconds
+[2021-12-25 11:39:20,726] {scheduler_job.py:182} INFO - Started process (PID=150) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:39:20,730] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:39:20,732] {logging_mixin.py:104} INFO - [2021-12-25 11:39:20,732] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:39:21,933] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:39:21,973] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:39:21,973] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:39:21,974] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:39:22,029] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:39:22,040] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:39:22,066] {logging_mixin.py:104} INFO - [2021-12-25 11:39:22,066] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:39:22,096] {logging_mixin.py:104} INFO - [2021-12-25 11:39:22,096] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-25 00:00:00+00:00
+[2021-12-25 11:39:22,111] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 1.392 seconds
+[2021-12-25 11:39:52,219] {scheduler_job.py:182} INFO - Started process (PID=157) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:39:52,224] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:39:52,225] {logging_mixin.py:104} INFO - [2021-12-25 11:39:52,225] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:39:54,458] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:39:54,583] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:39:54,585] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:39:54,589] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:39:54,832] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:39:54,851] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:39:54,913] {logging_mixin.py:104} INFO - [2021-12-25 11:39:54,913] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:39:54,981] {logging_mixin.py:104} INFO - [2021-12-25 11:39:54,981] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-25 00:00:00+00:00
+[2021-12-25 11:39:55,003] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 2.795 seconds
+[2021-12-25 11:40:25,418] {scheduler_job.py:182} INFO - Started process (PID=164) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:40:25,421] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:40:25,423] {logging_mixin.py:104} INFO - [2021-12-25 11:40:25,423] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:40:27,877] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:40:27,918] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:40:27,919] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:40:27,921] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:40:28,002] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:40:28,016] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:40:28,050] {logging_mixin.py:104} INFO - [2021-12-25 11:40:28,050] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:40:28,092] {logging_mixin.py:104} INFO - [2021-12-25 11:40:28,092] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-25 00:00:00+00:00
+[2021-12-25 11:40:28,179] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 2.770 seconds
+[2021-12-25 11:40:58,677] {scheduler_job.py:182} INFO - Started process (PID=171) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:40:58,681] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:40:58,683] {logging_mixin.py:104} INFO - [2021-12-25 11:40:58,683] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:41:01,965] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:41:02,093] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:41:02,096] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:41:02,098] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:41:02,336] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:41:02,362] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:41:02,438] {logging_mixin.py:104} INFO - [2021-12-25 11:41:02,438] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:41:02,536] {logging_mixin.py:104} INFO - [2021-12-25 11:41:02,536] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-25 00:00:00+00:00
+[2021-12-25 11:41:02,564] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 3.901 seconds
+[2021-12-25 11:41:33,071] {scheduler_job.py:182} INFO - Started process (PID=174) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:41:33,074] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:41:33,076] {logging_mixin.py:104} INFO - [2021-12-25 11:41:33,076] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:41:36,246] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:41:36,387] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:41:36,453] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:41:36,494] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:41:36,761] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:41:36,797] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:41:36,927] {logging_mixin.py:104} INFO - [2021-12-25 11:41:36,915] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:41:37,077] {logging_mixin.py:104} INFO - [2021-12-25 11:41:37,077] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-25 00:00:00+00:00
+[2021-12-25 11:41:37,143] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 4.079 seconds
+[2021-12-25 11:42:07,888] {scheduler_job.py:182} INFO - Started process (PID=180) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:42:07,895] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:42:07,898] {logging_mixin.py:104} INFO - [2021-12-25 11:42:07,897] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:42:10,839] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:42:10,884] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:42:10,884] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:42:10,886] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:42:10,972] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:42:10,992] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:42:11,044] {logging_mixin.py:104} INFO - [2021-12-25 11:42:11,044] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:42:11,083] {logging_mixin.py:104} INFO - [2021-12-25 11:42:11,082] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-25 00:00:00+00:00
+[2021-12-25 11:42:11,097] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 3.220 seconds
+[2021-12-25 11:42:41,286] {scheduler_job.py:182} INFO - Started process (PID=187) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:42:41,295] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:42:41,296] {logging_mixin.py:104} INFO - [2021-12-25 11:42:41,296] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:42:42,778] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:42:42,814] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:42:42,815] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:42:42,816] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:42:42,885] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:42:42,897] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:42:42,925] {logging_mixin.py:104} INFO - [2021-12-25 11:42:42,925] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:42:42,958] {logging_mixin.py:104} INFO - [2021-12-25 11:42:42,958] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-25 00:00:00+00:00
+[2021-12-25 11:42:42,985] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 1.708 seconds
+[2021-12-25 11:43:13,418] {scheduler_job.py:182} INFO - Started process (PID=194) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:43:13,420] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:43:13,541] {logging_mixin.py:104} INFO - [2021-12-25 11:43:13,541] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:43:18,172] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:43:18,223] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:43:18,224] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:43:18,226] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:43:18,435] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:43:18,455] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:43:18,491] {logging_mixin.py:104} INFO - [2021-12-25 11:43:18,491] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:43:18,567] {logging_mixin.py:104} INFO - [2021-12-25 11:43:18,566] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-25 00:00:00+00:00
+[2021-12-25 11:43:18,614] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 5.204 seconds
+[2021-12-25 11:43:48,914] {scheduler_job.py:182} INFO - Started process (PID=201) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:43:48,917] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:43:48,921] {logging_mixin.py:104} INFO - [2021-12-25 11:43:48,921] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:43:50,487] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:43:50,545] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:43:50,548] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:43:50,556] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:43:50,705] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:43:50,782] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:43:50,865] {logging_mixin.py:104} INFO - [2021-12-25 11:43:50,864] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:43:50,927] {logging_mixin.py:104} INFO - [2021-12-25 11:43:50,927] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-25 00:00:00+00:00
+[2021-12-25 11:43:50,949] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 2.043 seconds
+[2021-12-25 11:44:29,334] {scheduler_job.py:182} INFO - Started process (PID=208) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:44:29,337] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:44:29,339] {logging_mixin.py:104} INFO - [2021-12-25 11:44:29,338] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:44:30,998] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:44:31,058] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:44:31,059] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:44:31,061] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:44:31,158] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:44:31,176] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:44:31,221] {logging_mixin.py:104} INFO - [2021-12-25 11:44:31,221] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:44:31,271] {logging_mixin.py:104} INFO - [2021-12-25 11:44:31,271] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-25 00:00:00+00:00
+[2021-12-25 11:44:31,291] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 1.968 seconds
+[2021-12-25 11:45:05,428] {scheduler_job.py:182} INFO - Started process (PID=215) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:45:05,431] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:45:05,434] {logging_mixin.py:104} INFO - [2021-12-25 11:45:05,433] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:45:07,002] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:45:07,070] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:45:07,071] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:45:07,073] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:45:07,211] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:45:07,227] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:45:07,257] {logging_mixin.py:104} INFO - [2021-12-25 11:45:07,257] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:45:07,291] {logging_mixin.py:104} INFO - [2021-12-25 11:45:07,291] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-25 00:00:00+00:00
+[2021-12-25 11:45:07,307] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 1.887 seconds
+[2021-12-25 11:45:37,743] {scheduler_job.py:182} INFO - Started process (PID=220) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:45:37,748] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:45:37,750] {logging_mixin.py:104} INFO - [2021-12-25 11:45:37,750] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:45:39,438] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:45:39,474] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:45:39,474] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:45:39,476] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:45:39,538] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:45:39,549] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:45:39,576] {logging_mixin.py:104} INFO - [2021-12-25 11:45:39,576] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:45:39,607] {logging_mixin.py:104} INFO - [2021-12-25 11:45:39,607] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-25 00:00:00+00:00
+[2021-12-25 11:45:39,654] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 1.917 seconds
+[2021-12-25 11:46:09,816] {scheduler_job.py:182} INFO - Started process (PID=224) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:46:09,818] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:46:09,819] {logging_mixin.py:104} INFO - [2021-12-25 11:46:09,819] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:46:10,814] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:46:10,846] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:46:10,847] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:46:10,848] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:46:10,903] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:46:10,913] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:46:10,938] {logging_mixin.py:104} INFO - [2021-12-25 11:46:10,938] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:46:10,966] {logging_mixin.py:104} INFO - [2021-12-25 11:46:10,966] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-25 00:00:00+00:00
+[2021-12-25 11:46:10,980] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 1.169 seconds
+[2021-12-25 11:46:41,964] {scheduler_job.py:182} INFO - Started process (PID=228) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:46:41,967] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:46:41,968] {logging_mixin.py:104} INFO - [2021-12-25 11:46:41,968] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:46:43,493] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:46:43,542] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:46:43,543] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:46:43,548] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:46:43,667] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:46:43,688] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:46:43,761] {logging_mixin.py:104} INFO - [2021-12-25 11:46:43,760] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:46:43,815] {logging_mixin.py:104} INFO - [2021-12-25 11:46:43,815] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-25 00:00:00+00:00
+[2021-12-25 11:46:43,830] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 1.873 seconds
+[2021-12-25 11:47:14,151] {scheduler_job.py:182} INFO - Started process (PID=232) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:47:14,154] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:47:14,155] {logging_mixin.py:104} INFO - [2021-12-25 11:47:14,155] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:47:15,233] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:47:15,269] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:47:15,270] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:47:15,271] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:47:15,323] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:47:15,334] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:47:15,362] {logging_mixin.py:104} INFO - [2021-12-25 11:47:15,362] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:47:15,392] {logging_mixin.py:104} INFO - [2021-12-25 11:47:15,392] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-25 00:00:00+00:00
+[2021-12-25 11:47:15,406] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 1.260 seconds
+[2021-12-25 11:47:45,891] {scheduler_job.py:182} INFO - Started process (PID=236) to work on /opt/airflow/dags/data_transform.py
+[2021-12-25 11:47:45,893] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/data_transform.py for tasks to queue
+[2021-12-25 11:47:45,895] {logging_mixin.py:104} INFO - [2021-12-25 11:47:45,894] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:47:47,056] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package punkt to /home/airflow/nltk_data...
+[2021-12-25 11:47:47,093] {logging_mixin.py:104} WARNING - [nltk_data]   Package punkt is already up-to-date!
+[2021-12-25 11:47:47,094] {logging_mixin.py:104} WARNING - [nltk_data] Downloading package stopwords to
+[nltk_data]     /home/airflow/nltk_data...
+[2021-12-25 11:47:47,096] {logging_mixin.py:104} WARNING - [nltk_data]   Package stopwords is already up-to-date!
+[2021-12-25 11:47:47,163] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-25 11:47:47,174] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['data_transform']) retrieved from /opt/airflow/dags/data_transform.py
+[2021-12-25 11:47:47,208] {logging_mixin.py:104} INFO - [2021-12-25 11:47:47,208] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:47:47,250] {logging_mixin.py:104} INFO - [2021-12-25 11:47:47,249] {dag.py:2273} INFO - Setting next_dagrun for data_transform to 2021-12-25 00:00:00+00:00
+[2021-12-25 11:47:47,267] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/data_transform.py took 1.382 seconds

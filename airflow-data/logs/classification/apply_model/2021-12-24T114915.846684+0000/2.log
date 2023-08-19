@@ -1,0 +1,35 @@
+[2021-12-24 11:55:34,331] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: classification.apply_model 2021-12-24T11:49:15.846684+00:00 [queued]>
+[2021-12-24 11:55:34,545] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: classification.apply_model 2021-12-24T11:49:15.846684+00:00 [queued]>
+[2021-12-24 11:55:34,577] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-24 11:55:34,594] {taskinstance.py:1043} INFO - Starting attempt 2 of 2
+[2021-12-24 11:55:34,629] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-24 11:55:34,746] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): apply_model> on 2021-12-24T11:49:15.846684+00:00
+[2021-12-24 11:55:34,829] {standard_task_runner.py:52} INFO - Started process 1319 to run task
+[2021-12-24 11:55:34,937] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'classification', 'apply_model', '2021-12-24T11:49:15.846684+00:00', '--job-id', '163', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/classification.py', '--cfg-path', '/tmp/tmpqkv9zmpa', '--error-file', '/tmp/tmpanfzr9z8']
+[2021-12-24 11:55:35,007] {standard_task_runner.py:77} INFO - Job 163: Subtask apply_model
+[2021-12-24 11:55:35,667] {logging_mixin.py:104} INFO - Running <TaskInstance: classification.apply_model 2021-12-24T11:49:15.846684+00:00 [running]> on host 0d76f33c6135
+[2021-12-24 11:55:36,045] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=classification
+AIRFLOW_CTX_TASK_ID=apply_model
+AIRFLOW_CTX_EXECUTION_DATE=2021-12-24T11:49:15.846684+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2021-12-24T11:49:15.846684+00:00
+[2021-12-24 11:55:43,118] {taskinstance.py:1455} ERROR - [Errno 2] No such file or directory: '/opt/airflow/dags/process_dir'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1112, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1285, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1315, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 117, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 128, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/classification.py", line 103, in apply_dl_model
+    for i, filename in enumerate(os.listdir(process_dir)):
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/dags/process_dir'
+[2021-12-24 11:55:43,140] {taskinstance.py:1503} INFO - Marking task as FAILED. dag_id=classification, task_id=apply_model, execution_date=20211224T114915, start_date=20211224T115534, end_date=20211224T115543
+[2021-12-24 11:55:43,386] {local_task_job.py:146} INFO - Task exited with return code 1

@@ -1,0 +1,551 @@
+[2021-12-25 10:53:49,223] {scheduler_job.py:182} INFO - Started process (PID=24) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 10:53:49,230] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 10:53:49,233] {logging_mixin.py:104} INFO - [2021-12-25 10:53:49,233] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 10:54:19,275] {logging_mixin.py:104} INFO - [2021-12-25 10:54:19,272] {timeout.py:36} ERROR - Process timed out, PID: 24
+[2021-12-25 10:54:19,442] {logging_mixin.py:104} INFO - [2021-12-25 10:54:19,284] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/bing_image_download.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bing_image_download.py", line 13, in <module>
+    import tensorflow
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/__init__.py", line 41, in <module>
+    from tensorflow.python.tools import module_util as _module_util
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/__init__.py", line 49, in <module>
+    from tensorflow.python.feature_column import feature_column_lib as feature_column
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/feature_column/feature_column_lib.py", line 22, in <module>
+    from tensorflow.python.feature_column.feature_column import *
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/feature_column/feature_column.py", line 147, in <module>
+    from tensorflow.python.layers import base
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/layers/base.py", line 20, in <module>
+    from tensorflow.python.keras.legacy_tf_layers import base
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/keras/__init__.py", line 25, in <module>
+    from tensorflow.python.keras import models
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/keras/models.py", line 20, in <module>
+    from tensorflow.python.keras import metrics as metrics_module
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/keras/metrics.py", line 34, in <module>
+    from tensorflow.python.keras import activations
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/keras/activations.py", line 18, in <module>
+    from tensorflow.python.keras.layers import advanced_activations
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/keras/layers/__init__.py", line 22, in <module>
+    from tensorflow.python.keras.engine.input_layer import Input
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/keras/engine/input_layer.py", line 24, in <module>
+    from tensorflow.python.keras.engine import base_layer
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/keras/engine/base_layer.py", line 56, in <module>
+    from tensorflow.python.keras.saving.saved_model import layer_serialization
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/keras/saving/saved_model/layer_serialization.py", line 20, in <module>
+    from tensorflow.python.keras.saving.saved_model import save_impl
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/keras/saving/saved_model/save_impl.py", line 34, in <module>
+    from tensorflow.python.keras.saving.saved_model import load as keras_load
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/keras/saving/saved_model/load.py", line 45, in <module>
+    from tensorflow.python.saved_model import load as tf_load
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/saved_model/load.py", line 45, in <module>
+    from tensorflow.python.saved_model import load_v1_in_v2
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 758, in get_code
+  File "<frozen importlib._bootstrap_external>", line 843, in path_stats
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/bing_image_download.py after 30.0s, PID: 24
+[2021-12-25 10:54:19,488] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 10:54:19,897] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 30.680 seconds
+[2021-12-25 10:54:50,718] {scheduler_job.py:182} INFO - Started process (PID=26) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 10:54:50,734] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 10:54:50,737] {logging_mixin.py:104} INFO - [2021-12-25 10:54:50,736] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 10:55:09,111] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 10:55:09,161] {logging_mixin.py:104} INFO - [2021-12-25 10:55:09,161] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 10:55:09,219] {logging_mixin.py:104} INFO - [2021-12-25 10:55:09,219] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 10:50:09.218575+00:00
+[2021-12-25 10:55:09,277] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 18.571 seconds
+[2021-12-25 10:55:39,565] {scheduler_job.py:182} INFO - Started process (PID=31) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 10:55:39,567] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 10:55:39,568] {logging_mixin.py:104} INFO - [2021-12-25 10:55:39,568] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 10:55:47,270] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 10:55:47,283] {logging_mixin.py:104} INFO - [2021-12-25 10:55:47,283] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 10:55:47,302] {logging_mixin.py:104} INFO - [2021-12-25 10:55:47,302] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 10:50:47.301726+00:00
+[2021-12-25 10:55:47,729] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 8.169 seconds
+[2021-12-25 10:56:17,818] {scheduler_job.py:182} INFO - Started process (PID=36) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 10:56:17,820] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 10:56:17,821] {logging_mixin.py:104} INFO - [2021-12-25 10:56:17,821] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 10:56:22,615] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 10:56:22,631] {logging_mixin.py:104} INFO - [2021-12-25 10:56:22,631] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 10:56:22,651] {logging_mixin.py:104} INFO - [2021-12-25 10:56:22,651] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 10:51:22.650969+00:00
+[2021-12-25 10:56:22,671] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 4.858 seconds
+[2021-12-25 10:56:52,816] {scheduler_job.py:182} INFO - Started process (PID=41) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 10:56:52,819] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 10:56:52,820] {logging_mixin.py:104} INFO - [2021-12-25 10:56:52,820] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 10:56:57,963] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 10:56:57,979] {logging_mixin.py:104} INFO - [2021-12-25 10:56:57,979] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 10:56:58,015] {logging_mixin.py:104} INFO - [2021-12-25 10:56:58,012] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 10:51:58.011420+00:00
+[2021-12-25 10:56:58,436] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 5.626 seconds
+[2021-12-25 10:57:28,564] {scheduler_job.py:182} INFO - Started process (PID=46) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 10:57:28,568] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 10:57:28,571] {logging_mixin.py:104} INFO - [2021-12-25 10:57:28,571] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 10:57:38,837] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 10:57:38,876] {logging_mixin.py:104} INFO - [2021-12-25 10:57:38,876] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 10:57:38,923] {logging_mixin.py:104} INFO - [2021-12-25 10:57:38,923] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 10:52:38.922576+00:00
+[2021-12-25 10:57:38,945] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 10.391 seconds
+[2021-12-25 10:58:09,126] {scheduler_job.py:182} INFO - Started process (PID=51) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 10:58:09,129] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 10:58:09,131] {logging_mixin.py:104} INFO - [2021-12-25 10:58:09,130] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 10:58:14,722] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 10:58:14,748] {logging_mixin.py:104} INFO - [2021-12-25 10:58:14,748] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 10:58:14,787] {logging_mixin.py:104} INFO - [2021-12-25 10:58:14,786] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 10:53:14.786135+00:00
+[2021-12-25 10:58:15,039] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 5.921 seconds
+[2021-12-25 10:58:45,256] {scheduler_job.py:182} INFO - Started process (PID=56) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 10:58:45,260] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 10:58:45,263] {logging_mixin.py:104} INFO - [2021-12-25 10:58:45,262] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 10:58:50,090] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 10:58:50,125] {logging_mixin.py:104} INFO - [2021-12-25 10:58:50,125] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 10:58:50,148] {logging_mixin.py:104} INFO - [2021-12-25 10:58:50,148] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 10:53:50.147961+00:00
+[2021-12-25 10:58:50,514] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 5.266 seconds
+[2021-12-25 10:59:20,679] {scheduler_job.py:182} INFO - Started process (PID=61) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 10:59:20,682] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 10:59:20,683] {logging_mixin.py:104} INFO - [2021-12-25 10:59:20,683] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 10:59:25,304] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 10:59:25,318] {logging_mixin.py:104} INFO - [2021-12-25 10:59:25,317] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 10:59:25,338] {logging_mixin.py:104} INFO - [2021-12-25 10:59:25,337] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 10:54:25.337628+00:00
+[2021-12-25 10:59:25,783] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 5.109 seconds
+[2021-12-25 10:59:55,921] {scheduler_job.py:182} INFO - Started process (PID=66) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 10:59:55,923] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 10:59:55,925] {logging_mixin.py:104} INFO - [2021-12-25 10:59:55,925] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:00:02,440] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:00:02,462] {logging_mixin.py:104} INFO - [2021-12-25 11:00:02,462] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:00:02,505] {logging_mixin.py:104} INFO - [2021-12-25 11:00:02,504] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 10:55:02.504204+00:00
+[2021-12-25 11:00:02,714] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 6.799 seconds
+[2021-12-25 11:00:33,045] {scheduler_job.py:182} INFO - Started process (PID=71) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:00:33,047] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:00:33,053] {logging_mixin.py:104} INFO - [2021-12-25 11:00:33,053] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:00:46,248] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:00:46,284] {logging_mixin.py:104} INFO - [2021-12-25 11:00:46,284] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:00:46,320] {logging_mixin.py:104} INFO - [2021-12-25 11:00:46,320] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 10:55:46.319914+00:00
+[2021-12-25 11:00:46,359] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 13.321 seconds
+[2021-12-25 11:06:28,974] {scheduler_job.py:182} INFO - Started process (PID=22) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:06:28,977] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:06:28,979] {logging_mixin.py:104} INFO - [2021-12-25 11:06:28,978] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:06:59,045] {logging_mixin.py:104} INFO - [2021-12-25 11:06:59,018] {timeout.py:36} ERROR - Process timed out, PID: 22
+[2021-12-25 11:06:59,360] {logging_mixin.py:104} INFO - [2021-12-25 11:06:59,050] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/bing_image_download.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/bing_image_download.py", line 13, in <module>
+    import tensorflow
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/__init__.py", line 41, in <module>
+    from tensorflow.python.tools import module_util as _module_util
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/__init__.py", line 66, in <module>
+    from tensorflow.python.ops.distributions import distributions
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/ops/distributions/distributions.py", line 25, in <module>
+    from tensorflow.python.ops.distributions.bernoulli import Bernoulli
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/ops/distributions/bernoulli.py", line 28, in <module>
+    from tensorflow.python.ops.distributions import distribution
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/ops/distributions/distribution.py", line 35, in <module>
+    from tensorflow.python.ops.distributions import kullback_leibler
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/ops/distributions/kullback_leibler.py", line 65, in <module>
+    allow_nan_stats=True, name=None):
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py", line 352, in deprecated_wrapper
+    instructions))
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/util/deprecation.py", line 56, in _add_deprecated_function_notice_to_docstring
+    '(deprecated)', main_text)
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/util/decorator_utils.py", line 96, in add_notice_to_docstring
+    lines = _normalize_docstring(doc).splitlines()
+  File "/usr/local/lib/python3.6/site-packages/tensorflow/python/util/decorator_utils.py", line 54, in _normalize_docstring
+    lines = docstring.expandtabs().splitlines()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/bing_image_download.py after 30.0s, PID: 22
+[2021-12-25 11:06:59,490] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:07:00,941] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 31.977 seconds
+[2021-12-25 11:07:31,655] {scheduler_job.py:182} INFO - Started process (PID=24) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:07:31,663] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:07:31,681] {logging_mixin.py:104} INFO - [2021-12-25 11:07:31,681] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:07:54,718] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:07:54,750] {logging_mixin.py:104} INFO - [2021-12-25 11:07:54,750] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:07:54,810] {logging_mixin.py:104} INFO - [2021-12-25 11:07:54,809] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 11:02:54.809409+00:00
+[2021-12-25 11:07:54,844] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 23.225 seconds
+[2021-12-25 11:08:25,358] {scheduler_job.py:182} INFO - Started process (PID=30) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:08:25,379] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:08:25,393] {logging_mixin.py:104} INFO - [2021-12-25 11:08:25,392] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:08:32,920] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:08:32,932] {logging_mixin.py:104} INFO - [2021-12-25 11:08:32,932] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:08:32,954] {logging_mixin.py:104} INFO - [2021-12-25 11:08:32,954] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 11:03:32.953840+00:00
+[2021-12-25 11:08:33,346] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 8.078 seconds
+[2021-12-25 11:09:03,460] {scheduler_job.py:182} INFO - Started process (PID=35) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:09:03,463] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:09:03,464] {logging_mixin.py:104} INFO - [2021-12-25 11:09:03,464] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:09:08,908] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:09:08,926] {logging_mixin.py:104} INFO - [2021-12-25 11:09:08,926] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:09:08,954] {logging_mixin.py:104} INFO - [2021-12-25 11:09:08,954] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 11:04:08.953725+00:00
+[2021-12-25 11:09:09,274] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 5.821 seconds
+[2021-12-25 11:09:39,400] {scheduler_job.py:182} INFO - Started process (PID=40) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:09:39,403] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:09:39,404] {logging_mixin.py:104} INFO - [2021-12-25 11:09:39,404] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:09:47,260] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:09:47,299] {logging_mixin.py:104} INFO - [2021-12-25 11:09:47,298] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:09:47,341] {logging_mixin.py:104} INFO - [2021-12-25 11:09:47,341] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 11:04:47.340615+00:00
+[2021-12-25 11:09:47,454] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 8.061 seconds
+[2021-12-25 11:10:17,581] {scheduler_job.py:182} INFO - Started process (PID=45) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:10:17,584] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:10:17,587] {logging_mixin.py:104} INFO - [2021-12-25 11:10:17,586] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:10:34,946] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:10:34,964] {logging_mixin.py:104} INFO - [2021-12-25 11:10:34,963] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:10:34,986] {logging_mixin.py:104} INFO - [2021-12-25 11:10:34,986] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 11:05:34.986235+00:00
+[2021-12-25 11:10:35,208] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 17.646 seconds
+[2021-12-25 11:11:05,397] {scheduler_job.py:182} INFO - Started process (PID=50) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:11:05,399] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:11:05,402] {logging_mixin.py:104} INFO - [2021-12-25 11:11:05,401] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:11:10,333] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:11:10,358] {logging_mixin.py:104} INFO - [2021-12-25 11:11:10,358] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:11:10,392] {logging_mixin.py:104} INFO - [2021-12-25 11:11:10,392] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 11:06:10.391644+00:00
+[2021-12-25 11:11:10,493] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 5.104 seconds
+[2021-12-25 11:11:41,070] {scheduler_job.py:182} INFO - Started process (PID=57) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:11:41,073] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:11:41,075] {logging_mixin.py:104} INFO - [2021-12-25 11:11:41,074] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:11:45,603] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:11:45,636] {logging_mixin.py:104} INFO - [2021-12-25 11:11:45,636] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:11:45,679] {logging_mixin.py:104} INFO - [2021-12-25 11:11:45,679] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 11:06:45.678524+00:00
+[2021-12-25 11:11:45,783] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 4.720 seconds
+[2021-12-25 11:12:15,901] {scheduler_job.py:182} INFO - Started process (PID=64) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:12:15,907] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:12:15,909] {logging_mixin.py:104} INFO - [2021-12-25 11:12:15,909] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:12:24,879] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:12:24,944] {logging_mixin.py:104} INFO - [2021-12-25 11:12:24,943] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:12:25,029] {logging_mixin.py:104} INFO - [2021-12-25 11:12:25,029] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 11:07:25.028939+00:00
+[2021-12-25 11:12:25,104] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 9.214 seconds
+[2021-12-25 11:14:31,757] {scheduler_job.py:182} INFO - Started process (PID=24) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:14:31,772] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:14:31,789] {logging_mixin.py:104} INFO - [2021-12-25 11:14:31,789] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:14:52,098] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:14:52,145] {logging_mixin.py:104} INFO - [2021-12-25 11:14:52,144] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:14:52,227] {logging_mixin.py:104} INFO - [2021-12-25 11:14:52,227] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 11:09:52.226601+00:00
+[2021-12-25 11:14:52,422] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 20.689 seconds
+[2021-12-25 11:15:22,735] {scheduler_job.py:182} INFO - Started process (PID=32) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:15:22,758] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:15:22,761] {logging_mixin.py:104} INFO - [2021-12-25 11:15:22,761] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:15:39,197] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:15:39,231] {logging_mixin.py:104} INFO - [2021-12-25 11:15:39,231] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:15:39,293] {logging_mixin.py:104} INFO - [2021-12-25 11:15:39,292] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 11:10:39.292137+00:00
+[2021-12-25 11:15:39,316] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 16.623 seconds
+[2021-12-25 11:16:25,119] {scheduler_job.py:182} INFO - Started process (PID=40) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:16:25,156] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:16:25,161] {logging_mixin.py:104} INFO - [2021-12-25 11:16:25,161] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:16:48,328] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:16:48,347] {logging_mixin.py:104} INFO - [2021-12-25 11:16:48,346] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:16:48,379] {logging_mixin.py:104} INFO - [2021-12-25 11:16:48,379] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 11:11:48.378367+00:00
+[2021-12-25 11:16:48,408] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 23.296 seconds
+[2021-12-25 11:17:18,617] {scheduler_job.py:182} INFO - Started process (PID=48) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:17:18,620] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:17:18,622] {logging_mixin.py:104} INFO - [2021-12-25 11:17:18,622] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:17:23,820] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:17:23,833] {logging_mixin.py:104} INFO - [2021-12-25 11:17:23,832] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:17:23,852] {logging_mixin.py:104} INFO - [2021-12-25 11:17:23,852] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 11:12:23.851985+00:00
+[2021-12-25 11:17:23,965] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 5.353 seconds
+[2021-12-25 11:17:56,336] {scheduler_job.py:182} INFO - Started process (PID=55) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:17:56,350] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:17:56,353] {logging_mixin.py:104} INFO - [2021-12-25 11:17:56,352] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:18:04,616] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:18:04,631] {logging_mixin.py:104} INFO - [2021-12-25 11:18:04,631] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:18:04,655] {logging_mixin.py:104} INFO - [2021-12-25 11:18:04,655] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 11:13:04.654992+00:00
+[2021-12-25 11:18:04,920] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 8.603 seconds
+[2021-12-25 11:18:35,380] {scheduler_job.py:182} INFO - Started process (PID=63) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:18:35,392] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:18:35,394] {logging_mixin.py:104} INFO - [2021-12-25 11:18:35,394] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:18:43,752] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:18:43,789] {logging_mixin.py:104} INFO - [2021-12-25 11:18:43,789] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:18:43,817] {logging_mixin.py:104} INFO - [2021-12-25 11:18:43,816] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 11:13:43.816507+00:00
+[2021-12-25 11:18:43,885] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 8.512 seconds
+[2021-12-25 11:19:14,364] {scheduler_job.py:182} INFO - Started process (PID=70) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:19:14,367] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:19:14,369] {logging_mixin.py:104} INFO - [2021-12-25 11:19:14,368] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:19:21,355] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:19:21,399] {logging_mixin.py:104} INFO - [2021-12-25 11:19:21,398] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:19:21,484] {logging_mixin.py:104} INFO - [2021-12-25 11:19:21,484] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 11:14:21.472783+00:00
+[2021-12-25 11:19:21,532] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 7.176 seconds
+[2021-12-25 11:19:51,874] {scheduler_job.py:182} INFO - Started process (PID=77) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:19:51,881] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:19:51,883] {logging_mixin.py:104} INFO - [2021-12-25 11:19:51,883] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:19:59,665] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:19:59,677] {logging_mixin.py:104} INFO - [2021-12-25 11:19:59,677] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:19:59,698] {logging_mixin.py:104} INFO - [2021-12-25 11:19:59,698] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 11:14:59.697769+00:00
+[2021-12-25 11:20:00,031] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 8.163 seconds
+[2021-12-25 11:20:30,919] {scheduler_job.py:182} INFO - Started process (PID=84) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:20:30,921] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:20:30,923] {logging_mixin.py:104} INFO - [2021-12-25 11:20:30,922] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:20:35,411] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:20:35,424] {logging_mixin.py:104} INFO - [2021-12-25 11:20:35,424] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:20:35,446] {logging_mixin.py:104} INFO - [2021-12-25 11:20:35,446] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 11:15:35.445823+00:00
+[2021-12-25 11:20:35,667] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 4.752 seconds
+[2021-12-25 11:21:06,154] {scheduler_job.py:182} INFO - Started process (PID=91) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:21:06,160] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:21:06,167] {logging_mixin.py:104} INFO - [2021-12-25 11:21:06,167] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:21:14,023] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:21:14,044] {logging_mixin.py:104} INFO - [2021-12-25 11:21:14,044] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:21:14,069] {logging_mixin.py:104} INFO - [2021-12-25 11:21:14,069] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 11:16:14.068588+00:00
+[2021-12-25 11:21:14,211] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 8.064 seconds
+[2021-12-25 11:21:44,440] {scheduler_job.py:182} INFO - Started process (PID=98) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:21:44,443] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:21:44,444] {logging_mixin.py:104} INFO - [2021-12-25 11:21:44,444] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:21:56,188] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:21:56,235] {logging_mixin.py:104} INFO - [2021-12-25 11:21:56,235] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:21:56,301] {logging_mixin.py:104} INFO - [2021-12-25 11:21:56,301] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 11:16:56.299299+00:00
+[2021-12-25 11:21:56,447] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 12.013 seconds
+[2021-12-25 11:22:26,727] {scheduler_job.py:182} INFO - Started process (PID=107) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:22:26,730] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:22:26,732] {logging_mixin.py:104} INFO - [2021-12-25 11:22:26,732] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:22:32,038] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:22:32,091] {logging_mixin.py:104} INFO - [2021-12-25 11:22:32,091] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:22:32,164] {logging_mixin.py:104} INFO - [2021-12-25 11:22:32,164] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 11:17:32.163601+00:00
+[2021-12-25 11:22:32,241] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 5.521 seconds
+[2021-12-25 11:23:02,986] {scheduler_job.py:182} INFO - Started process (PID=114) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:23:02,989] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:23:02,991] {logging_mixin.py:104} INFO - [2021-12-25 11:23:02,991] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:23:10,849] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:23:10,882] {logging_mixin.py:104} INFO - [2021-12-25 11:23:10,882] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:23:10,932] {logging_mixin.py:104} INFO - [2021-12-25 11:23:10,931] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 11:18:10.931182+00:00
+[2021-12-25 11:23:11,118] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 8.137 seconds
+[2021-12-25 11:23:41,322] {scheduler_job.py:182} INFO - Started process (PID=121) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:23:41,324] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:23:41,326] {logging_mixin.py:104} INFO - [2021-12-25 11:23:41,326] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:23:50,595] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:23:50,624] {logging_mixin.py:104} INFO - [2021-12-25 11:23:50,624] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:23:50,668] {logging_mixin.py:104} INFO - [2021-12-25 11:23:50,668] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 11:18:50.667445+00:00
+[2021-12-25 11:23:50,973] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 9.657 seconds
+[2021-12-25 11:24:21,217] {scheduler_job.py:182} INFO - Started process (PID=128) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:24:21,219] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:24:21,221] {logging_mixin.py:104} INFO - [2021-12-25 11:24:21,221] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:24:30,694] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:24:30,715] {logging_mixin.py:104} INFO - [2021-12-25 11:24:30,714] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:24:30,743] {logging_mixin.py:104} INFO - [2021-12-25 11:24:30,743] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 11:19:30.743263+00:00
+[2021-12-25 11:24:30,895] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 9.684 seconds
+[2021-12-25 11:25:01,552] {scheduler_job.py:182} INFO - Started process (PID=136) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:25:01,555] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:25:01,557] {logging_mixin.py:104} INFO - [2021-12-25 11:25:01,556] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:25:06,444] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:25:06,459] {logging_mixin.py:104} INFO - [2021-12-25 11:25:06,459] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:25:06,479] {logging_mixin.py:104} INFO - [2021-12-25 11:25:06,479] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 11:20:06.479428+00:00
+[2021-12-25 11:25:06,596] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 5.051 seconds
+[2021-12-25 11:25:36,991] {scheduler_job.py:182} INFO - Started process (PID=143) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:25:36,994] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:25:36,996] {logging_mixin.py:104} INFO - [2021-12-25 11:25:36,996] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:25:42,128] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:25:42,152] {logging_mixin.py:104} INFO - [2021-12-25 11:25:42,152] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:25:42,183] {logging_mixin.py:104} INFO - [2021-12-25 11:25:42,183] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 11:20:42.182488+00:00
+[2021-12-25 11:25:43,064] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 6.089 seconds
+[2021-12-25 11:26:13,496] {scheduler_job.py:182} INFO - Started process (PID=151) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:26:13,499] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:26:13,500] {logging_mixin.py:104} INFO - [2021-12-25 11:26:13,500] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:26:19,017] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:26:19,048] {logging_mixin.py:104} INFO - [2021-12-25 11:26:19,047] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:26:19,129] {logging_mixin.py:104} INFO - [2021-12-25 11:26:19,128] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 11:21:19.128346+00:00
+[2021-12-25 11:26:19,474] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 5.983 seconds
+[2021-12-25 11:28:15,022] {scheduler_job.py:182} INFO - Started process (PID=25) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:28:15,025] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:28:15,028] {logging_mixin.py:104} INFO - [2021-12-25 11:28:15,027] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:28:33,573] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:28:33,641] {logging_mixin.py:104} INFO - [2021-12-25 11:28:33,641] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:28:33,695] {logging_mixin.py:104} INFO - [2021-12-25 11:28:33,695] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 11:23:33.694862+00:00
+[2021-12-25 11:28:33,733] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 18.723 seconds
+[2021-12-25 11:29:03,965] {scheduler_job.py:182} INFO - Started process (PID=32) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:29:03,975] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:29:03,980] {logging_mixin.py:104} INFO - [2021-12-25 11:29:03,979] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:29:15,794] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:29:15,828] {logging_mixin.py:104} INFO - [2021-12-25 11:29:15,827] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:29:15,885] {logging_mixin.py:104} INFO - [2021-12-25 11:29:15,885] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 11:24:15.884847+00:00
+[2021-12-25 11:29:15,925] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 11.975 seconds
+[2021-12-25 11:29:46,487] {scheduler_job.py:182} INFO - Started process (PID=39) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:29:46,489] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:29:46,491] {logging_mixin.py:104} INFO - [2021-12-25 11:29:46,491] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:29:53,121] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:29:53,138] {logging_mixin.py:104} INFO - [2021-12-25 11:29:53,138] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:29:53,168] {logging_mixin.py:104} INFO - [2021-12-25 11:29:53,168] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 11:24:53.167686+00:00
+[2021-12-25 11:29:53,775] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 7.295 seconds
+[2021-12-25 11:30:24,345] {scheduler_job.py:182} INFO - Started process (PID=47) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:30:24,360] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:30:24,362] {logging_mixin.py:104} INFO - [2021-12-25 11:30:24,362] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:30:36,730] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:30:36,750] {logging_mixin.py:104} INFO - [2021-12-25 11:30:36,750] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:30:36,779] {logging_mixin.py:104} INFO - [2021-12-25 11:30:36,779] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 11:25:36.779150+00:00
+[2021-12-25 11:30:36,808] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 12.484 seconds
+[2021-12-25 11:31:08,159] {scheduler_job.py:182} INFO - Started process (PID=55) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:31:08,163] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:31:08,175] {logging_mixin.py:104} INFO - [2021-12-25 11:31:08,174] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:31:13,412] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:31:13,431] {logging_mixin.py:104} INFO - [2021-12-25 11:31:13,431] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:31:13,463] {logging_mixin.py:104} INFO - [2021-12-25 11:31:13,463] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 11:26:13.462585+00:00
+[2021-12-25 11:31:13,570] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 5.430 seconds
+[2021-12-25 11:31:44,015] {scheduler_job.py:182} INFO - Started process (PID=63) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:31:44,017] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:31:44,018] {logging_mixin.py:104} INFO - [2021-12-25 11:31:44,018] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:31:48,626] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:31:48,643] {logging_mixin.py:104} INFO - [2021-12-25 11:31:48,643] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:31:48,673] {logging_mixin.py:104} INFO - [2021-12-25 11:31:48,672] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 11:26:48.672360+00:00
+[2021-12-25 11:31:48,838] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 4.828 seconds
+[2021-12-25 11:32:19,225] {scheduler_job.py:182} INFO - Started process (PID=70) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:32:19,227] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:32:19,228] {logging_mixin.py:104} INFO - [2021-12-25 11:32:19,228] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:32:23,821] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:32:23,845] {logging_mixin.py:104} INFO - [2021-12-25 11:32:23,845] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:32:23,869] {logging_mixin.py:104} INFO - [2021-12-25 11:32:23,869] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 11:27:23.868681+00:00
+[2021-12-25 11:32:24,096] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 4.876 seconds
+[2021-12-25 11:32:54,683] {scheduler_job.py:182} INFO - Started process (PID=77) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:32:54,684] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:32:54,686] {logging_mixin.py:104} INFO - [2021-12-25 11:32:54,685] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:32:59,717] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:32:59,731] {logging_mixin.py:104} INFO - [2021-12-25 11:32:59,731] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:32:59,759] {logging_mixin.py:104} INFO - [2021-12-25 11:32:59,759] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 11:27:59.759240+00:00
+[2021-12-25 11:32:59,952] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 5.274 seconds
+[2021-12-25 11:33:30,378] {scheduler_job.py:182} INFO - Started process (PID=84) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:33:30,380] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:33:30,382] {logging_mixin.py:104} INFO - [2021-12-25 11:33:30,382] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:33:36,708] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:33:36,722] {logging_mixin.py:104} INFO - [2021-12-25 11:33:36,722] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:33:36,748] {logging_mixin.py:104} INFO - [2021-12-25 11:33:36,748] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 11:28:36.747891+00:00
+[2021-12-25 11:33:36,920] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 6.548 seconds
+[2021-12-25 11:34:07,067] {scheduler_job.py:182} INFO - Started process (PID=91) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:34:07,069] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:34:07,070] {logging_mixin.py:104} INFO - [2021-12-25 11:34:07,070] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:34:14,872] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:34:14,903] {logging_mixin.py:104} INFO - [2021-12-25 11:34:14,903] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:34:14,953] {logging_mixin.py:104} INFO - [2021-12-25 11:34:14,951] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 11:29:14.951093+00:00
+[2021-12-25 11:34:15,074] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 8.013 seconds
+[2021-12-25 11:34:45,457] {scheduler_job.py:182} INFO - Started process (PID=98) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:34:45,459] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:34:45,460] {logging_mixin.py:104} INFO - [2021-12-25 11:34:45,460] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:34:51,042] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:34:51,058] {logging_mixin.py:104} INFO - [2021-12-25 11:34:51,057] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:34:51,085] {logging_mixin.py:104} INFO - [2021-12-25 11:34:51,085] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 11:29:51.084826+00:00
+[2021-12-25 11:34:51,233] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 5.781 seconds
+[2021-12-25 11:35:23,272] {scheduler_job.py:182} INFO - Started process (PID=106) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:35:23,277] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:35:23,288] {logging_mixin.py:104} INFO - [2021-12-25 11:35:23,288] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:35:36,793] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:35:36,808] {logging_mixin.py:104} INFO - [2021-12-25 11:35:36,807] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:35:36,835] {logging_mixin.py:104} INFO - [2021-12-25 11:35:36,835] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 11:30:36.834533+00:00
+[2021-12-25 11:35:36,852] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 13.597 seconds
+[2021-12-25 11:36:06,970] {scheduler_job.py:182} INFO - Started process (PID=114) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:36:06,972] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:36:06,973] {logging_mixin.py:104} INFO - [2021-12-25 11:36:06,973] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:36:15,432] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:36:15,486] {logging_mixin.py:104} INFO - [2021-12-25 11:36:15,486] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:36:15,550] {logging_mixin.py:104} INFO - [2021-12-25 11:36:15,549] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 11:31:15.549168+00:00
+[2021-12-25 11:36:15,586] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 8.621 seconds
+[2021-12-25 11:36:45,923] {scheduler_job.py:182} INFO - Started process (PID=121) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:36:45,926] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:36:45,927] {logging_mixin.py:104} INFO - [2021-12-25 11:36:45,927] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:36:51,209] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:36:51,228] {logging_mixin.py:104} INFO - [2021-12-25 11:36:51,228] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:36:51,259] {logging_mixin.py:104} INFO - [2021-12-25 11:36:51,259] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 11:31:51.258547+00:00
+[2021-12-25 11:36:51,434] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 5.516 seconds
+[2021-12-25 11:37:21,844] {scheduler_job.py:182} INFO - Started process (PID=128) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:37:21,846] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:37:21,847] {logging_mixin.py:104} INFO - [2021-12-25 11:37:21,847] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:37:26,921] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:37:26,945] {logging_mixin.py:104} INFO - [2021-12-25 11:37:26,945] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:37:26,973] {logging_mixin.py:104} INFO - [2021-12-25 11:37:26,973] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 11:32:26.972519+00:00
+[2021-12-25 11:37:27,097] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 5.258 seconds
+[2021-12-25 11:37:57,495] {scheduler_job.py:182} INFO - Started process (PID=135) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:37:57,515] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:37:57,525] {logging_mixin.py:104} INFO - [2021-12-25 11:37:57,525] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:38:10,826] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:38:10,851] {logging_mixin.py:104} INFO - [2021-12-25 11:38:10,851] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:38:10,892] {logging_mixin.py:104} INFO - [2021-12-25 11:38:10,892] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 11:33:10.891616+00:00
+[2021-12-25 11:38:11,087] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 13.603 seconds
+[2021-12-25 11:38:41,844] {scheduler_job.py:182} INFO - Started process (PID=143) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:38:41,849] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:38:41,859] {logging_mixin.py:104} INFO - [2021-12-25 11:38:41,859] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:39:01,346] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:39:01,415] {logging_mixin.py:104} INFO - [2021-12-25 11:39:01,415] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:39:01,463] {logging_mixin.py:104} INFO - [2021-12-25 11:39:01,462] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 11:34:01.462239+00:00
+[2021-12-25 11:39:01,565] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 19.754 seconds
+[2021-12-25 11:39:31,800] {scheduler_job.py:182} INFO - Started process (PID=151) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:39:31,804] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:39:31,805] {logging_mixin.py:104} INFO - [2021-12-25 11:39:31,805] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:39:39,367] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:39:39,399] {logging_mixin.py:104} INFO - [2021-12-25 11:39:39,398] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:39:39,430] {logging_mixin.py:104} INFO - [2021-12-25 11:39:39,430] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 11:34:39.430261+00:00
+[2021-12-25 11:39:39,533] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 7.739 seconds
+[2021-12-25 11:40:09,612] {scheduler_job.py:182} INFO - Started process (PID=158) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:40:09,614] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:40:09,616] {logging_mixin.py:104} INFO - [2021-12-25 11:40:09,615] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:40:15,119] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:40:15,132] {logging_mixin.py:104} INFO - [2021-12-25 11:40:15,132] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:40:15,156] {logging_mixin.py:104} INFO - [2021-12-25 11:40:15,155] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 11:35:15.155156+00:00
+[2021-12-25 11:40:16,316] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 6.708 seconds
+[2021-12-25 11:40:46,709] {scheduler_job.py:182} INFO - Started process (PID=166) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:40:46,711] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:40:46,713] {logging_mixin.py:104} INFO - [2021-12-25 11:40:46,713] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:40:56,364] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:40:56,381] {logging_mixin.py:104} INFO - [2021-12-25 11:40:56,381] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:40:56,403] {logging_mixin.py:104} INFO - [2021-12-25 11:40:56,403] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 11:35:56.402801+00:00
+[2021-12-25 11:40:56,583] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 9.881 seconds
+[2021-12-25 11:41:27,083] {scheduler_job.py:182} INFO - Started process (PID=173) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:41:27,112] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:41:27,116] {logging_mixin.py:104} INFO - [2021-12-25 11:41:27,116] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:41:39,729] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:41:39,767] {logging_mixin.py:104} INFO - [2021-12-25 11:41:39,767] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:41:39,808] {logging_mixin.py:104} INFO - [2021-12-25 11:41:39,808] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 11:36:39.807896+00:00
+[2021-12-25 11:41:39,972] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 12.911 seconds
+[2021-12-25 11:42:10,262] {scheduler_job.py:182} INFO - Started process (PID=181) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:42:10,274] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:42:10,277] {logging_mixin.py:104} INFO - [2021-12-25 11:42:10,276] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:42:20,428] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:42:20,471] {logging_mixin.py:104} INFO - [2021-12-25 11:42:20,471] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:42:20,537] {logging_mixin.py:104} INFO - [2021-12-25 11:42:20,537] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 11:37:20.536878+00:00
+[2021-12-25 11:42:21,039] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 10.786 seconds
+[2021-12-25 11:42:51,533] {scheduler_job.py:182} INFO - Started process (PID=188) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:42:51,546] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:42:51,548] {logging_mixin.py:104} INFO - [2021-12-25 11:42:51,547] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:43:05,893] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:43:05,994] {logging_mixin.py:104} INFO - [2021-12-25 11:43:05,994] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:43:06,082] {logging_mixin.py:104} INFO - [2021-12-25 11:43:06,082] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 11:38:06.081793+00:00
+[2021-12-25 11:43:06,248] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 14.723 seconds
+[2021-12-25 11:43:36,803] {scheduler_job.py:182} INFO - Started process (PID=196) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:43:36,805] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:43:36,807] {logging_mixin.py:104} INFO - [2021-12-25 11:43:36,806] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:43:44,423] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:43:44,470] {logging_mixin.py:104} INFO - [2021-12-25 11:43:44,470] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:43:44,545] {logging_mixin.py:104} INFO - [2021-12-25 11:43:44,545] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 11:38:44.544990+00:00
+[2021-12-25 11:43:44,619] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 7.821 seconds
+[2021-12-25 11:44:15,085] {scheduler_job.py:182} INFO - Started process (PID=203) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:44:15,088] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:44:15,091] {logging_mixin.py:104} INFO - [2021-12-25 11:44:15,090] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:44:29,178] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:44:29,199] {logging_mixin.py:104} INFO - [2021-12-25 11:44:29,199] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:44:29,238] {logging_mixin.py:104} INFO - [2021-12-25 11:44:29,238] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 11:39:29.238293+00:00
+[2021-12-25 11:44:29,261] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 14.187 seconds
+[2021-12-25 11:44:59,392] {scheduler_job.py:182} INFO - Started process (PID=210) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:44:59,395] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:44:59,398] {logging_mixin.py:104} INFO - [2021-12-25 11:44:59,397] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:45:05,073] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['bing_image_download']) retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:45:05,089] {logging_mixin.py:104} INFO - [2021-12-25 11:45:05,089] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-25 11:45:05,116] {logging_mixin.py:104} INFO - [2021-12-25 11:45:05,115] {dag.py:2273} INFO - Setting next_dagrun for bing_image_download to 2021-12-25 11:40:05.115351+00:00
+[2021-12-25 11:45:05,277] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 5.892 seconds
+[2021-12-25 11:45:35,723] {scheduler_job.py:182} INFO - Started process (PID=217) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:45:35,727] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:45:35,729] {logging_mixin.py:104} INFO - [2021-12-25 11:45:35,729] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:45:35,731] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:45:35,732] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 0.015 seconds
+[2021-12-25 11:46:05,766] {scheduler_job.py:182} INFO - Started process (PID=221) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:46:05,768] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:46:05,770] {logging_mixin.py:104} INFO - [2021-12-25 11:46:05,770] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:46:05,771] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:46:05,773] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 0.011 seconds
+[2021-12-25 11:46:35,946] {scheduler_job.py:182} INFO - Started process (PID=225) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:46:35,949] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:46:35,950] {logging_mixin.py:104} INFO - [2021-12-25 11:46:35,950] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:46:35,952] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:46:35,953] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 0.015 seconds
+[2021-12-25 11:47:06,077] {scheduler_job.py:182} INFO - Started process (PID=229) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:47:06,079] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:47:06,080] {logging_mixin.py:104} INFO - [2021-12-25 11:47:06,080] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:47:06,082] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:47:06,083] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 0.011 seconds
+[2021-12-25 11:47:36,216] {scheduler_job.py:182} INFO - Started process (PID=233) to work on /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:47:36,218] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/bing_image_download.py for tasks to queue
+[2021-12-25 11:47:36,220] {logging_mixin.py:104} INFO - [2021-12-25 11:47:36,220] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:47:36,221] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/bing_image_download.py
+[2021-12-25 11:47:36,222] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/bing_image_download.py took 0.011 seconds

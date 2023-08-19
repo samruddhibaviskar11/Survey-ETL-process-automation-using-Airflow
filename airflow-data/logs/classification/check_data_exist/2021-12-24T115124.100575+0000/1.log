@@ -1,0 +1,107 @@
+[2021-12-24 11:56:39,403] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: classification.check_data_exist 2021-12-24T11:51:24.100575+00:00 [queued]>
+[2021-12-24 11:56:39,445] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: classification.check_data_exist 2021-12-24T11:51:24.100575+00:00 [queued]>
+[2021-12-24 11:56:39,446] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-24 11:56:39,446] {taskinstance.py:1043} INFO - Starting attempt 1 of 2
+[2021-12-24 11:56:39,447] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-24 11:56:39,489] {taskinstance.py:1063} INFO - Executing <Task(BranchPythonOperator): check_data_exist> on 2021-12-24T11:51:24.100575+00:00
+[2021-12-24 11:56:39,520] {standard_task_runner.py:52} INFO - Started process 1334 to run task
+[2021-12-24 11:56:39,545] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'classification', 'check_data_exist', '2021-12-24T11:51:24.100575+00:00', '--job-id', '166', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/classification.py', '--cfg-path', '/tmp/tmpgtank9dc', '--error-file', '/tmp/tmpxmuxicbb']
+[2021-12-24 11:56:39,573] {standard_task_runner.py:77} INFO - Job 166: Subtask check_data_exist
+[2021-12-24 11:56:39,802] {logging_mixin.py:104} INFO - Running <TaskInstance: classification.check_data_exist 2021-12-24T11:51:24.100575+00:00 [running]> on host 0d76f33c6135
+[2021-12-24 11:56:40,070] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=classification
+AIRFLOW_CTX_TASK_ID=check_data_exist
+AIRFLOW_CTX_EXECUTION_DATE=2021-12-24T11:51:24.100575+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-12-24T11:51:24.100575+00:00
+[2021-12-24 11:56:40,372] {logging_mixin.py:104} INFO - pikachu_224.jpeg
+[2021-12-24 11:56:40,373] {logging_mixin.py:104} INFO - pikachu_225.jpeg
+[2021-12-24 11:56:40,374] {logging_mixin.py:104} INFO - pikachu_226.jpeg
+[2021-12-24 11:56:40,375] {logging_mixin.py:104} INFO - pikachu_227.jpeg
+[2021-12-24 11:56:40,375] {logging_mixin.py:104} INFO - pikachu_228.jpeg
+[2021-12-24 11:56:40,376] {logging_mixin.py:104} INFO - pikachu_229.jpeg
+[2021-12-24 11:56:40,377] {logging_mixin.py:104} INFO - pikachu_230.jpeg
+[2021-12-24 11:56:40,377] {logging_mixin.py:104} INFO - pikachu_231.jpeg
+[2021-12-24 11:56:40,378] {logging_mixin.py:104} INFO - pikachu_232.jpeg
+[2021-12-24 11:56:40,378] {logging_mixin.py:104} INFO - pikachu_232.png
+[2021-12-24 11:56:40,379] {logging_mixin.py:104} INFO - pikachu_233.jpeg
+[2021-12-24 11:56:40,379] {logging_mixin.py:104} INFO - pikachu_233.png
+[2021-12-24 11:56:40,380] {logging_mixin.py:104} INFO - pikachu_234.jpeg
+[2021-12-24 11:56:40,384] {logging_mixin.py:104} INFO - pikachu_235.jpeg
+[2021-12-24 11:56:40,385] {logging_mixin.py:104} INFO - pikachu_236.jpeg
+[2021-12-24 11:56:40,385] {logging_mixin.py:104} INFO - pikachu_237.jpeg
+[2021-12-24 11:56:40,387] {logging_mixin.py:104} INFO - pikachu_238.jpeg
+[2021-12-24 11:56:40,389] {logging_mixin.py:104} INFO - pikachu_239.jpeg
+[2021-12-24 11:56:40,391] {logging_mixin.py:104} INFO - pikachu_240.jpeg
+[2021-12-24 11:56:40,392] {logging_mixin.py:104} INFO - pikachu_241.jpeg
+[2021-12-24 11:56:40,392] {logging_mixin.py:104} INFO - pikachu_241.png
+[2021-12-24 11:56:40,393] {logging_mixin.py:104} INFO - pikachu_242.png
+[2021-12-24 11:56:40,394] {logging_mixin.py:104} INFO - pikachu_243.jpeg
+[2021-12-24 11:56:40,394] {logging_mixin.py:104} INFO - pikachu_243.png
+[2021-12-24 11:56:40,395] {logging_mixin.py:104} INFO - pikachu_244.jpeg
+[2021-12-24 11:56:40,396] {logging_mixin.py:104} INFO - pikachu_245.jpeg
+[2021-12-24 11:56:40,396] {logging_mixin.py:104} INFO - pikachu_245.png
+[2021-12-24 11:56:40,397] {logging_mixin.py:104} INFO - pikachu_246.jpeg
+[2021-12-24 11:56:40,398] {logging_mixin.py:104} INFO - pikachu_246.png
+[2021-12-24 11:56:40,398] {logging_mixin.py:104} INFO - pikachu_247.jpeg
+[2021-12-24 11:56:40,399] {logging_mixin.py:104} INFO - pikachu_248.jpeg
+[2021-12-24 11:56:40,400] {logging_mixin.py:104} INFO - pikachu_249.jpeg
+[2021-12-24 11:56:40,400] {logging_mixin.py:104} INFO - pikachu_250.jpeg
+[2021-12-24 11:56:40,401] {logging_mixin.py:104} INFO - pikachu_251.jpeg
+[2021-12-24 11:56:40,402] {logging_mixin.py:104} INFO - pikachu_252.jpeg
+[2021-12-24 11:56:40,403] {logging_mixin.py:104} INFO - pikachu_253.jpeg
+[2021-12-24 11:56:40,403] {logging_mixin.py:104} INFO - pikachu_254.jpeg
+[2021-12-24 11:56:40,404] {logging_mixin.py:104} INFO - pikachu_255.jpeg
+[2021-12-24 11:56:40,406] {logging_mixin.py:104} INFO - pikachu_256.jpeg
+[2021-12-24 11:56:40,406] {logging_mixin.py:104} INFO - pikachu_257.jpeg
+[2021-12-24 11:56:40,407] {logging_mixin.py:104} INFO - pikachu_258.jpeg
+[2021-12-24 11:56:40,408] {logging_mixin.py:104} INFO - pikachu_259.jpeg
+[2021-12-24 11:56:40,408] {logging_mixin.py:104} INFO - pikachu_260.jpeg
+[2021-12-24 11:56:40,409] {logging_mixin.py:104} INFO - pikachu_261.jpeg
+[2021-12-24 11:56:40,409] {logging_mixin.py:104} INFO - pikachu_262.jpeg
+[2021-12-24 11:56:40,410] {logging_mixin.py:104} INFO - pikachu_263.jpeg
+[2021-12-24 11:56:40,411] {logging_mixin.py:104} INFO - pikachu_264.jpeg
+[2021-12-24 11:56:40,411] {logging_mixin.py:104} INFO - pikachu_265.jpeg
+[2021-12-24 11:56:40,412] {logging_mixin.py:104} INFO - pikachu_266.jpeg
+[2021-12-24 11:56:40,413] {logging_mixin.py:104} INFO - pikachu_267.jpeg
+[2021-12-24 11:56:40,413] {logging_mixin.py:104} INFO - pikachu_268.jpeg
+[2021-12-24 11:56:40,414] {logging_mixin.py:104} INFO - pikachu_269.jpeg
+[2021-12-24 11:56:40,415] {logging_mixin.py:104} INFO - pikachu_270.jpeg
+[2021-12-24 11:56:40,415] {logging_mixin.py:104} INFO - pikachu_270.png
+[2021-12-24 11:56:40,416] {logging_mixin.py:104} INFO - pikachu_271.jpeg
+[2021-12-24 11:56:40,416] {logging_mixin.py:104} INFO - pikachu_271.png
+[2021-12-24 11:56:40,417] {logging_mixin.py:104} INFO - pikachu_272.jpeg
+[2021-12-24 11:56:40,418] {logging_mixin.py:104} INFO - pikachu_273.jpeg
+[2021-12-24 11:56:40,419] {logging_mixin.py:104} INFO - pikachu_274.jpeg
+[2021-12-24 11:56:40,419] {logging_mixin.py:104} INFO - pikachu_275.jpeg
+[2021-12-24 11:56:40,420] {logging_mixin.py:104} INFO - pikachu_276.jpeg
+[2021-12-24 11:56:40,421] {logging_mixin.py:104} INFO - pikachu_278.jpeg
+[2021-12-24 11:56:40,422] {logging_mixin.py:104} INFO - pikachu_279.jpeg
+[2021-12-24 11:56:40,423] {logging_mixin.py:104} INFO - pikachu_280.jpeg
+[2021-12-24 11:56:40,424] {logging_mixin.py:104} INFO - pikachu_281.jpeg
+[2021-12-24 11:56:40,424] {logging_mixin.py:104} INFO - pikachu_282.jpeg
+[2021-12-24 11:56:40,425] {logging_mixin.py:104} INFO - pikachu_282.png
+[2021-12-24 11:56:40,426] {logging_mixin.py:104} INFO - pikachu_283.jpeg
+[2021-12-24 11:56:40,427] {logging_mixin.py:104} INFO - pikachu_283.png
+[2021-12-24 11:56:40,428] {logging_mixin.py:104} INFO - pikachu_284.jpeg
+[2021-12-24 11:56:40,429] {logging_mixin.py:104} INFO - pikachu_284.png
+[2021-12-24 11:56:40,430] {logging_mixin.py:104} INFO - pikachu_285.jpeg
+[2021-12-24 11:56:40,431] {logging_mixin.py:104} INFO - pikachu_285.png
+[2021-12-24 11:56:40,431] {logging_mixin.py:104} INFO - pikachu_286.jpeg
+[2021-12-24 11:56:40,432] {logging_mixin.py:104} INFO - pikachu_287.jpeg
+[2021-12-24 11:56:40,432] {logging_mixin.py:104} INFO - pikachu_288.jpeg
+[2021-12-24 11:56:40,433] {logging_mixin.py:104} INFO - pikachu_289.jpeg
+[2021-12-24 11:56:40,433] {logging_mixin.py:104} INFO - pikachu_290.jpeg
+[2021-12-24 11:56:40,434] {logging_mixin.py:104} INFO - pikachu_291.jpeg
+[2021-12-24 11:56:40,435] {logging_mixin.py:104} INFO - pikachu_292.jpeg
+[2021-12-24 11:56:40,435] {logging_mixin.py:104} INFO - --------------ti-----------------------
+[2021-12-24 11:56:40,436] {logging_mixin.py:104} INFO - <TaskInstance: classification.check_data_exist 2021-12-24T11:51:24.100575+00:00 [running]>
+[2021-12-24 11:56:40,437] {logging_mixin.py:104} INFO - ------------------------------
+[2021-12-24 11:56:40,486] {python.py:118} INFO - Done. Returned value was: load_data
+[2021-12-24 11:56:40,487] {skipmixin.py:124} INFO - Following branch load_data
+[2021-12-24 11:56:40,504] {skipmixin.py:155} INFO - Skipping tasks []
+[2021-12-24 11:56:40,633] {taskinstance.py:1166} INFO - Marking task as SUCCESS. dag_id=classification, task_id=check_data_exist, execution_date=20211224T115124, start_date=20211224T115639, end_date=20211224T115640
+[2021-12-24 11:56:40,769] {taskinstance.py:1220} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2021-12-24 11:56:40,790] {local_task_job.py:146} INFO - Task exited with return code 0

@@ -1,0 +1,40 @@
+[2021-12-24 11:50:58,249] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: classification.apply_model 2021-12-24T11:42:50.453196+00:00 [queued]>
+[2021-12-24 11:50:58,381] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: classification.apply_model 2021-12-24T11:42:50.453196+00:00 [queued]>
+[2021-12-24 11:50:58,385] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-24 11:50:58,386] {taskinstance.py:1043} INFO - Starting attempt 1 of 2
+[2021-12-24 11:50:58,396] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-24 11:50:58,465] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): apply_model> on 2021-12-24T11:42:50.453196+00:00
+[2021-12-24 11:50:58,536] {standard_task_runner.py:52} INFO - Started process 209 to run task
+[2021-12-24 11:50:58,573] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'classification', 'apply_model', '2021-12-24T11:42:50.453196+00:00', '--job-id', '160', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/classification.py', '--cfg-path', '/tmp/tmpddy6nujn', '--error-file', '/tmp/tmpvzymw_pw']
+[2021-12-24 11:50:58,623] {standard_task_runner.py:77} INFO - Job 160: Subtask apply_model
+[2021-12-24 11:50:58,956] {logging_mixin.py:104} INFO - Running <TaskInstance: classification.apply_model 2021-12-24T11:42:50.453196+00:00 [running]> on host 0d76f33c6135
+[2021-12-24 11:50:59,221] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=classification
+AIRFLOW_CTX_TASK_ID=apply_model
+AIRFLOW_CTX_EXECUTION_DATE=2021-12-24T11:42:50.453196+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-12-24T11:42:50.453196+00:00
+[2021-12-24 11:51:36,124] {logging_mixin.py:104} WARNING - /usr/local/lib/python3.6/site-packages/PIL/Image.py:976 UserWarning: Palette images with Transparency expressed in bytes should be converted to RGBA images
+[2021-12-24 11:52:23,538] {taskinstance.py:1455} ERROR - [Errno 2] No such file or directory: '/opt/airflow/dags/process_dir/pikachu_157.jpeg.e70b88574a55d28a67a66de48eba2297-2.part.minio'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1112, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1285, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1315, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 117, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 128, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/classification.py", line 104, in apply_dl_model
+    img = image.load_img(os.path.join(process_dir,filename), target_size=(64, 64))
+  File "/usr/local/lib/python3.6/site-packages/keras/preprocessing/image.py", line 314, in load_img
+    target_size=target_size, interpolation=interpolation)
+  File "/usr/local/lib/python3.6/site-packages/keras_preprocessing/image/utils.py", line 113, in load_img
+    with open(path, 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/airflow/dags/process_dir/pikachu_157.jpeg.e70b88574a55d28a67a66de48eba2297-2.part.minio'
+[2021-12-24 11:52:23,691] {taskinstance.py:1503} INFO - Marking task as UP_FOR_RETRY. dag_id=classification, task_id=apply_model, execution_date=20211224T114250, start_date=20211224T115058, end_date=20211224T115223
+[2021-12-24 11:52:23,898] {local_task_job.py:146} INFO - Task exited with return code 1

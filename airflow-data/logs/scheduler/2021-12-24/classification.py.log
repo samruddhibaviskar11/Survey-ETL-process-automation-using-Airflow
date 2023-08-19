@@ -1,0 +1,990 @@
+[2021-12-24 10:45:22,514] {scheduler_job.py:182} INFO - Started process (PID=25) to work on /opt/airflow/dags/classification.py
+[2021-12-24 10:45:22,517] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 10:45:22,518] {logging_mixin.py:104} INFO - [2021-12-24 10:45:22,518] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 10:45:38,633] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 10:45:38,653] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 10:45:38,686] {logging_mixin.py:104} INFO - [2021-12-24 10:45:38,686] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 10:45:38,720] {logging_mixin.py:104} INFO - [2021-12-24 10:45:38,719] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 10:40:38.719433+00:00
+[2021-12-24 10:45:38,756] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 16.247 seconds
+[2021-12-24 10:46:09,298] {scheduler_job.py:182} INFO - Started process (PID=30) to work on /opt/airflow/dags/classification.py
+[2021-12-24 10:46:09,307] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 10:46:09,316] {logging_mixin.py:104} INFO - [2021-12-24 10:46:09,316] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 10:46:24,297] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 10:46:24,339] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 10:46:24,389] {logging_mixin.py:104} INFO - [2021-12-24 10:46:24,388] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 10:46:24,474] {logging_mixin.py:104} INFO - [2021-12-24 10:46:24,474] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 10:41:24.473710+00:00
+[2021-12-24 10:46:24,521] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 15.241 seconds
+[2021-12-24 10:46:54,958] {scheduler_job.py:182} INFO - Started process (PID=36) to work on /opt/airflow/dags/classification.py
+[2021-12-24 10:46:54,961] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 10:46:54,962] {logging_mixin.py:104} INFO - [2021-12-24 10:46:54,962] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 10:46:58,632] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 10:46:58,642] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 10:46:58,655] {logging_mixin.py:104} INFO - [2021-12-24 10:46:58,655] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 10:46:58,674] {logging_mixin.py:104} INFO - [2021-12-24 10:46:58,673] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 10:41:58.673566+00:00
+[2021-12-24 10:46:58,690] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 3.737 seconds
+[2021-12-24 10:47:29,532] {scheduler_job.py:182} INFO - Started process (PID=41) to work on /opt/airflow/dags/classification.py
+[2021-12-24 10:47:29,534] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 10:47:29,535] {logging_mixin.py:104} INFO - [2021-12-24 10:47:29,535] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 10:47:33,960] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 10:47:33,975] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 10:47:33,990] {logging_mixin.py:104} INFO - [2021-12-24 10:47:33,990] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 10:47:34,012] {logging_mixin.py:104} INFO - [2021-12-24 10:47:34,011] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 10:42:34.011177+00:00
+[2021-12-24 10:47:34,030] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 4.503 seconds
+[2021-12-24 10:48:04,262] {scheduler_job.py:182} INFO - Started process (PID=48) to work on /opt/airflow/dags/classification.py
+[2021-12-24 10:48:04,265] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 10:48:04,267] {logging_mixin.py:104} INFO - [2021-12-24 10:48:04,267] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 10:48:15,720] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 10:48:15,752] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 10:48:15,780] {logging_mixin.py:104} INFO - [2021-12-24 10:48:15,780] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 10:48:15,823] {logging_mixin.py:104} INFO - [2021-12-24 10:48:15,823] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 10:43:15.820863+00:00
+[2021-12-24 10:48:15,862] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 11.612 seconds
+[2021-12-24 10:48:46,658] {scheduler_job.py:182} INFO - Started process (PID=54) to work on /opt/airflow/dags/classification.py
+[2021-12-24 10:48:46,709] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 10:48:46,795] {logging_mixin.py:104} INFO - [2021-12-24 10:48:46,795] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 10:49:03,765] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 10:49:03,775] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 10:49:03,792] {logging_mixin.py:104} INFO - [2021-12-24 10:49:03,792] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 10:49:03,826] {logging_mixin.py:104} INFO - [2021-12-24 10:49:03,826] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 10:44:03.826175+00:00
+[2021-12-24 10:49:03,856] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 17.215 seconds
+[2021-12-24 10:49:34,343] {scheduler_job.py:182} INFO - Started process (PID=59) to work on /opt/airflow/dags/classification.py
+[2021-12-24 10:49:34,345] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 10:49:34,347] {logging_mixin.py:104} INFO - [2021-12-24 10:49:34,347] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 10:49:40,381] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 10:49:40,395] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 10:49:40,418] {logging_mixin.py:104} INFO - [2021-12-24 10:49:40,418] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 10:49:40,446] {logging_mixin.py:104} INFO - [2021-12-24 10:49:40,446] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 10:44:40.445568+00:00
+[2021-12-24 10:49:40,473] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 6.138 seconds
+[2021-12-24 10:50:11,369] {scheduler_job.py:182} INFO - Started process (PID=65) to work on /opt/airflow/dags/classification.py
+[2021-12-24 10:50:11,381] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 10:50:11,396] {logging_mixin.py:104} INFO - [2021-12-24 10:50:11,395] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 10:50:17,622] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 10:50:17,637] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 10:50:17,657] {logging_mixin.py:104} INFO - [2021-12-24 10:50:17,657] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 10:50:17,687] {logging_mixin.py:104} INFO - [2021-12-24 10:50:17,686] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 10:45:17.686285+00:00
+[2021-12-24 10:50:17,708] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 6.364 seconds
+[2021-12-24 10:50:48,558] {scheduler_job.py:182} INFO - Started process (PID=72) to work on /opt/airflow/dags/classification.py
+[2021-12-24 10:50:48,562] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 10:50:48,564] {logging_mixin.py:104} INFO - [2021-12-24 10:50:48,563] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 10:50:57,754] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 10:50:57,766] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 10:50:57,786] {logging_mixin.py:104} INFO - [2021-12-24 10:50:57,785] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 10:50:57,807] {logging_mixin.py:104} INFO - [2021-12-24 10:50:57,807] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 10:45:57.807420+00:00
+[2021-12-24 10:50:57,827] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 9.276 seconds
+[2021-12-24 10:51:28,447] {scheduler_job.py:182} INFO - Started process (PID=77) to work on /opt/airflow/dags/classification.py
+[2021-12-24 10:51:28,449] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 10:51:28,451] {logging_mixin.py:104} INFO - [2021-12-24 10:51:28,450] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 10:51:32,947] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 10:51:32,961] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 10:51:32,981] {logging_mixin.py:104} INFO - [2021-12-24 10:51:32,981] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 10:51:33,012] {logging_mixin.py:104} INFO - [2021-12-24 10:51:33,012] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 10:46:33.011678+00:00
+[2021-12-24 10:51:33,035] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 4.594 seconds
+[2021-12-24 10:52:03,291] {scheduler_job.py:182} INFO - Started process (PID=83) to work on /opt/airflow/dags/classification.py
+[2021-12-24 10:52:03,294] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 10:52:03,296] {logging_mixin.py:104} INFO - [2021-12-24 10:52:03,296] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 10:52:07,317] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 10:52:07,326] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 10:52:07,340] {logging_mixin.py:104} INFO - [2021-12-24 10:52:07,340] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 10:52:07,362] {logging_mixin.py:104} INFO - [2021-12-24 10:52:07,362] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 10:47:07.361727+00:00
+[2021-12-24 10:52:07,378] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 4.094 seconds
+[2021-12-24 10:52:37,694] {scheduler_job.py:182} INFO - Started process (PID=88) to work on /opt/airflow/dags/classification.py
+[2021-12-24 10:52:37,696] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 10:52:37,698] {logging_mixin.py:104} INFO - [2021-12-24 10:52:37,698] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 10:52:42,572] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 10:52:42,598] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 10:52:42,647] {logging_mixin.py:104} INFO - [2021-12-24 10:52:42,647] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 10:52:42,717] {logging_mixin.py:104} INFO - [2021-12-24 10:52:42,717] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 10:47:42.717045+00:00
+[2021-12-24 10:52:42,741] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 5.052 seconds
+[2021-12-24 10:53:13,210] {scheduler_job.py:182} INFO - Started process (PID=94) to work on /opt/airflow/dags/classification.py
+[2021-12-24 10:53:13,220] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 10:53:13,222] {logging_mixin.py:104} INFO - [2021-12-24 10:53:13,222] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 10:53:20,098] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 10:53:20,114] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 10:53:20,134] {logging_mixin.py:104} INFO - [2021-12-24 10:53:20,134] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 10:53:20,161] {logging_mixin.py:104} INFO - [2021-12-24 10:53:20,161] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 10:48:20.160762+00:00
+[2021-12-24 10:53:20,179] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 6.977 seconds
+[2021-12-24 10:53:50,416] {scheduler_job.py:182} INFO - Started process (PID=99) to work on /opt/airflow/dags/classification.py
+[2021-12-24 10:53:50,418] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 10:53:50,420] {logging_mixin.py:104} INFO - [2021-12-24 10:53:50,419] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 10:53:57,773] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 10:53:57,848] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 10:53:57,935] {logging_mixin.py:104} INFO - [2021-12-24 10:53:57,934] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 10:53:58,035] {logging_mixin.py:104} INFO - [2021-12-24 10:53:58,034] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 10:48:58.032057+00:00
+[2021-12-24 10:53:58,098] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 7.689 seconds
+[2021-12-24 10:54:28,528] {scheduler_job.py:182} INFO - Started process (PID=105) to work on /opt/airflow/dags/classification.py
+[2021-12-24 10:54:28,530] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 10:54:28,531] {logging_mixin.py:104} INFO - [2021-12-24 10:54:28,531] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 10:54:32,571] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 10:54:32,581] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 10:54:32,596] {logging_mixin.py:104} INFO - [2021-12-24 10:54:32,596] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 10:54:32,622] {logging_mixin.py:104} INFO - [2021-12-24 10:54:32,622] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 10:49:32.621857+00:00
+[2021-12-24 10:54:32,638] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 4.116 seconds
+[2021-12-24 10:55:03,290] {scheduler_job.py:182} INFO - Started process (PID=112) to work on /opt/airflow/dags/classification.py
+[2021-12-24 10:55:03,295] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 10:55:03,297] {logging_mixin.py:104} INFO - [2021-12-24 10:55:03,297] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 10:55:08,815] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 10:55:08,829] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 10:55:08,851] {logging_mixin.py:104} INFO - [2021-12-24 10:55:08,851] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 10:55:08,879] {logging_mixin.py:104} INFO - [2021-12-24 10:55:08,878] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 10:50:08.878069+00:00
+[2021-12-24 10:55:08,914] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 5.629 seconds
+[2021-12-24 10:55:39,269] {scheduler_job.py:182} INFO - Started process (PID=117) to work on /opt/airflow/dags/classification.py
+[2021-12-24 10:55:39,271] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 10:55:39,273] {logging_mixin.py:104} INFO - [2021-12-24 10:55:39,273] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 10:55:42,975] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 10:55:42,985] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 10:55:43,001] {logging_mixin.py:104} INFO - [2021-12-24 10:55:43,001] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 10:55:43,022] {logging_mixin.py:104} INFO - [2021-12-24 10:55:43,022] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 10:50:43.021797+00:00
+[2021-12-24 10:55:43,041] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 3.776 seconds
+[2021-12-24 10:56:13,113] {scheduler_job.py:182} INFO - Started process (PID=122) to work on /opt/airflow/dags/classification.py
+[2021-12-24 10:56:13,119] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 10:56:13,121] {logging_mixin.py:104} INFO - [2021-12-24 10:56:13,120] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 10:56:17,930] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 10:56:17,952] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 10:56:17,979] {logging_mixin.py:104} INFO - [2021-12-24 10:56:17,979] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 10:56:18,002] {logging_mixin.py:104} INFO - [2021-12-24 10:56:18,002] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 10:51:18.002302+00:00
+[2021-12-24 10:56:18,022] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 4.915 seconds
+[2021-12-24 10:56:48,099] {scheduler_job.py:182} INFO - Started process (PID=128) to work on /opt/airflow/dags/classification.py
+[2021-12-24 10:56:48,102] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 10:56:48,103] {logging_mixin.py:104} INFO - [2021-12-24 10:56:48,103] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 10:56:53,299] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 10:56:53,313] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 10:56:53,331] {logging_mixin.py:104} INFO - [2021-12-24 10:56:53,330] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 10:56:53,351] {logging_mixin.py:104} INFO - [2021-12-24 10:56:53,351] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 10:51:53.351457+00:00
+[2021-12-24 10:56:53,377] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 5.282 seconds
+[2021-12-24 10:57:24,195] {scheduler_job.py:182} INFO - Started process (PID=133) to work on /opt/airflow/dags/classification.py
+[2021-12-24 10:57:24,197] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 10:57:24,198] {logging_mixin.py:104} INFO - [2021-12-24 10:57:24,198] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 10:57:29,833] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 10:57:29,855] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 10:57:29,870] {logging_mixin.py:104} INFO - [2021-12-24 10:57:29,870] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 10:57:29,903] {logging_mixin.py:104} INFO - [2021-12-24 10:57:29,902] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 10:52:29.902226+00:00
+[2021-12-24 10:57:29,926] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 5.735 seconds
+[2021-12-24 10:58:00,129] {scheduler_job.py:182} INFO - Started process (PID=139) to work on /opt/airflow/dags/classification.py
+[2021-12-24 10:58:00,133] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 10:58:00,138] {logging_mixin.py:104} INFO - [2021-12-24 10:58:00,138] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 10:58:05,075] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 10:58:05,085] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 10:58:05,099] {logging_mixin.py:104} INFO - [2021-12-24 10:58:05,099] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 10:58:05,121] {logging_mixin.py:104} INFO - [2021-12-24 10:58:05,121] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 10:53:05.120641+00:00
+[2021-12-24 10:58:05,141] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 5.019 seconds
+[2021-12-24 10:58:35,188] {scheduler_job.py:182} INFO - Started process (PID=144) to work on /opt/airflow/dags/classification.py
+[2021-12-24 10:58:35,190] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 10:58:35,192] {logging_mixin.py:104} INFO - [2021-12-24 10:58:35,192] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 10:58:39,682] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 10:58:39,698] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 10:58:39,720] {logging_mixin.py:104} INFO - [2021-12-24 10:58:39,720] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 10:58:39,753] {logging_mixin.py:104} INFO - [2021-12-24 10:58:39,753] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 10:53:39.752809+00:00
+[2021-12-24 10:58:39,770] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 4.588 seconds
+[2021-12-24 10:59:10,015] {scheduler_job.py:182} INFO - Started process (PID=150) to work on /opt/airflow/dags/classification.py
+[2021-12-24 10:59:10,019] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 10:59:10,020] {logging_mixin.py:104} INFO - [2021-12-24 10:59:10,020] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 10:59:16,328] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 10:59:16,338] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 10:59:16,356] {logging_mixin.py:104} INFO - [2021-12-24 10:59:16,356] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 10:59:16,379] {logging_mixin.py:104} INFO - [2021-12-24 10:59:16,378] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 10:54:16.378416+00:00
+[2021-12-24 10:59:16,398] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 6.395 seconds
+[2021-12-24 10:59:46,587] {scheduler_job.py:182} INFO - Started process (PID=156) to work on /opt/airflow/dags/classification.py
+[2021-12-24 10:59:46,589] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 10:59:46,591] {logging_mixin.py:104} INFO - [2021-12-24 10:59:46,591] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 10:59:51,346] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 10:59:51,373] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 10:59:51,395] {logging_mixin.py:104} INFO - [2021-12-24 10:59:51,395] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 10:59:51,424] {logging_mixin.py:104} INFO - [2021-12-24 10:59:51,424] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 10:54:51.423907+00:00
+[2021-12-24 10:59:51,443] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 4.864 seconds
+[2021-12-24 11:00:22,136] {scheduler_job.py:182} INFO - Started process (PID=162) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:00:22,140] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:00:22,143] {logging_mixin.py:104} INFO - [2021-12-24 11:00:22,143] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:00:28,096] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:00:28,112] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:00:28,128] {logging_mixin.py:104} INFO - [2021-12-24 11:00:28,128] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:00:28,155] {logging_mixin.py:104} INFO - [2021-12-24 11:00:28,155] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 10:55:28.154687+00:00
+[2021-12-24 11:00:28,172] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 6.048 seconds
+[2021-12-24 11:00:58,327] {scheduler_job.py:182} INFO - Started process (PID=167) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:00:58,329] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:00:58,331] {logging_mixin.py:104} INFO - [2021-12-24 11:00:58,331] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:01:03,764] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:01:03,778] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:01:03,798] {logging_mixin.py:104} INFO - [2021-12-24 11:01:03,797] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:01:03,824] {logging_mixin.py:104} INFO - [2021-12-24 11:01:03,824] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 10:56:03.823751+00:00
+[2021-12-24 11:01:03,846] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 5.525 seconds
+[2021-12-24 11:01:34,323] {scheduler_job.py:182} INFO - Started process (PID=173) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:01:34,326] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:01:34,328] {logging_mixin.py:104} INFO - [2021-12-24 11:01:34,328] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:01:43,009] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:01:43,063] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:01:43,109] {logging_mixin.py:104} INFO - [2021-12-24 11:01:43,109] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:01:43,186] {logging_mixin.py:104} INFO - [2021-12-24 11:01:43,185] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 10:56:43.184603+00:00
+[2021-12-24 11:01:43,248] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 8.931 seconds
+[2021-12-24 11:02:13,945] {scheduler_job.py:182} INFO - Started process (PID=179) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:02:13,947] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:02:13,949] {logging_mixin.py:104} INFO - [2021-12-24 11:02:13,949] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:02:19,443] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:02:19,454] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:02:19,470] {logging_mixin.py:104} INFO - [2021-12-24 11:02:19,470] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:02:19,508] {logging_mixin.py:104} INFO - [2021-12-24 11:02:19,507] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 10:57:19.507289+00:00
+[2021-12-24 11:02:19,534] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 5.595 seconds
+[2021-12-24 11:02:50,384] {scheduler_job.py:182} INFO - Started process (PID=183) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:02:50,421] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:02:50,440] {logging_mixin.py:104} INFO - [2021-12-24 11:02:50,440] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:03:12,545] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:03:12,618] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:03:12,706] {logging_mixin.py:104} INFO - [2021-12-24 11:03:12,706] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:03:12,826] {logging_mixin.py:104} INFO - [2021-12-24 11:03:12,826] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 10:58:12.825983+00:00
+[2021-12-24 11:03:12,905] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 22.540 seconds
+[2021-12-24 11:03:43,500] {scheduler_job.py:182} INFO - Started process (PID=188) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:03:43,513] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:03:43,516] {logging_mixin.py:104} INFO - [2021-12-24 11:03:43,516] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:03:51,030] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:03:51,049] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:03:51,073] {logging_mixin.py:104} INFO - [2021-12-24 11:03:51,072] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:03:51,110] {logging_mixin.py:104} INFO - [2021-12-24 11:03:51,110] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 10:58:51.109292+00:00
+[2021-12-24 11:03:51,139] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 7.648 seconds
+[2021-12-24 11:04:21,290] {scheduler_job.py:182} INFO - Started process (PID=194) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:04:21,293] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:04:21,295] {logging_mixin.py:104} INFO - [2021-12-24 11:04:21,295] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:04:27,162] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:04:27,192] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:04:27,236] {logging_mixin.py:104} INFO - [2021-12-24 11:04:27,236] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:04:27,353] {logging_mixin.py:104} INFO - [2021-12-24 11:04:27,352] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 10:59:27.352320+00:00
+[2021-12-24 11:04:27,558] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 6.276 seconds
+[2021-12-24 11:04:58,664] {scheduler_job.py:182} INFO - Started process (PID=200) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:04:58,678] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:04:58,691] {logging_mixin.py:104} INFO - [2021-12-24 11:04:58,691] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:05:09,007] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:05:09,017] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:05:09,036] {logging_mixin.py:104} INFO - [2021-12-24 11:05:09,036] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:05:09,059] {logging_mixin.py:104} INFO - [2021-12-24 11:05:09,059] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:00:09.058784+00:00
+[2021-12-24 11:05:09,076] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 10.420 seconds
+[2021-12-24 11:05:39,787] {scheduler_job.py:182} INFO - Started process (PID=206) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:05:39,790] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:05:39,792] {logging_mixin.py:104} INFO - [2021-12-24 11:05:39,791] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:05:45,933] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:05:45,945] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:05:45,961] {logging_mixin.py:104} INFO - [2021-12-24 11:05:45,961] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:05:45,983] {logging_mixin.py:104} INFO - [2021-12-24 11:05:45,983] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:00:45.983067+00:00
+[2021-12-24 11:05:46,006] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 6.226 seconds
+[2021-12-24 11:06:16,579] {scheduler_job.py:182} INFO - Started process (PID=210) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:06:16,584] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:06:16,586] {logging_mixin.py:104} INFO - [2021-12-24 11:06:16,586] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:06:22,712] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:06:22,747] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:06:22,790] {logging_mixin.py:104} INFO - [2021-12-24 11:06:22,789] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:06:22,835] {logging_mixin.py:104} INFO - [2021-12-24 11:06:22,834] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:01:22.834023+00:00
+[2021-12-24 11:06:22,866] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 6.294 seconds
+[2021-12-24 11:06:53,121] {scheduler_job.py:182} INFO - Started process (PID=213) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:06:53,128] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:06:53,130] {logging_mixin.py:104} INFO - [2021-12-24 11:06:53,130] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:07:00,560] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:07:00,654] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:07:00,718] {logging_mixin.py:104} INFO - [2021-12-24 11:07:00,718] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:07:00,895] {logging_mixin.py:104} INFO - [2021-12-24 11:07:00,895] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:02:00.894790+00:00
+[2021-12-24 11:07:00,952] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 7.840 seconds
+[2021-12-24 11:07:31,317] {scheduler_job.py:182} INFO - Started process (PID=216) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:07:31,319] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:07:31,321] {logging_mixin.py:104} INFO - [2021-12-24 11:07:31,321] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:07:35,496] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:07:35,518] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:07:35,538] {logging_mixin.py:104} INFO - [2021-12-24 11:07:35,538] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:07:35,570] {logging_mixin.py:104} INFO - [2021-12-24 11:07:35,570] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:02:35.570267+00:00
+[2021-12-24 11:07:35,589] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 4.277 seconds
+[2021-12-24 11:08:06,406] {scheduler_job.py:182} INFO - Started process (PID=219) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:08:06,412] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:08:06,415] {logging_mixin.py:104} INFO - [2021-12-24 11:08:06,414] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:08:13,629] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:08:13,646] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:08:13,684] {logging_mixin.py:104} INFO - [2021-12-24 11:08:13,684] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:08:13,728] {logging_mixin.py:104} INFO - [2021-12-24 11:08:13,728] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:03:13.727526+00:00
+[2021-12-24 11:08:13,757] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 7.369 seconds
+[2021-12-24 11:08:43,919] {scheduler_job.py:182} INFO - Started process (PID=222) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:08:43,921] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:08:43,922] {logging_mixin.py:104} INFO - [2021-12-24 11:08:43,922] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:08:51,165] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:08:51,182] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:08:51,214] {logging_mixin.py:104} INFO - [2021-12-24 11:08:51,214] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:08:51,249] {logging_mixin.py:104} INFO - [2021-12-24 11:08:51,249] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:03:51.248731+00:00
+[2021-12-24 11:08:51,293] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 7.379 seconds
+[2021-12-24 11:09:21,770] {scheduler_job.py:182} INFO - Started process (PID=226) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:09:21,784] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:09:21,788] {logging_mixin.py:104} INFO - [2021-12-24 11:09:21,788] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:09:31,237] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:09:31,262] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:09:31,288] {logging_mixin.py:104} INFO - [2021-12-24 11:09:31,288] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:09:31,316] {logging_mixin.py:104} INFO - [2021-12-24 11:09:31,316] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:04:31.315978+00:00
+[2021-12-24 11:09:31,349] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 9.591 seconds
+[2021-12-24 11:10:01,547] {scheduler_job.py:182} INFO - Started process (PID=229) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:10:01,551] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:10:01,553] {logging_mixin.py:104} INFO - [2021-12-24 11:10:01,553] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:10:10,377] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:10:10,541] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:10:10,673] {logging_mixin.py:104} INFO - [2021-12-24 11:10:10,673] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:10:10,790] {logging_mixin.py:104} INFO - [2021-12-24 11:10:10,790] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:05:10.789505+00:00
+[2021-12-24 11:10:10,864] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 9.326 seconds
+[2021-12-24 11:10:42,015] {scheduler_job.py:182} INFO - Started process (PID=234) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:10:42,030] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:10:42,035] {logging_mixin.py:104} INFO - [2021-12-24 11:10:42,035] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:11:07,146] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:11:07,173] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:11:07,192] {logging_mixin.py:104} INFO - [2021-12-24 11:11:07,191] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:11:07,238] {logging_mixin.py:104} INFO - [2021-12-24 11:11:07,238] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:06:07.235593+00:00
+[2021-12-24 11:11:07,345] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 25.348 seconds
+[2021-12-24 11:11:38,129] {scheduler_job.py:182} INFO - Started process (PID=241) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:11:38,132] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:11:38,144] {logging_mixin.py:104} INFO - [2021-12-24 11:11:38,144] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:12:03,624] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:12:03,686] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:12:03,768] {logging_mixin.py:104} INFO - [2021-12-24 11:12:03,767] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:12:04,012] {logging_mixin.py:104} INFO - [2021-12-24 11:12:04,012] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:11:07.235593+00:00
+[2021-12-24 11:12:04,331] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 26.231 seconds
+[2021-12-24 11:12:35,686] {scheduler_job.py:182} INFO - Started process (PID=247) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:12:35,700] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:12:35,712] {logging_mixin.py:104} INFO - [2021-12-24 11:12:35,704] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:13:05,389] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:13:05,782] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:13:06,078] {logging_mixin.py:104} INFO - [2021-12-24 11:13:06,078] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:13:06,356] {logging_mixin.py:104} INFO - [2021-12-24 11:13:06,356] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:11:07.235593+00:00
+[2021-12-24 11:13:06,473] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 30.809 seconds
+[2021-12-24 11:13:36,804] {scheduler_job.py:182} INFO - Started process (PID=251) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:13:36,824] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:13:36,841] {logging_mixin.py:104} INFO - [2021-12-24 11:13:36,840] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:13:52,525] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:13:52,547] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:13:52,587] {logging_mixin.py:104} INFO - [2021-12-24 11:13:52,587] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:13:52,631] {logging_mixin.py:104} INFO - [2021-12-24 11:13:52,630] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:11:07.235593+00:00
+[2021-12-24 11:13:52,662] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 15.876 seconds
+[2021-12-24 11:14:23,240] {scheduler_job.py:182} INFO - Started process (PID=257) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:14:23,247] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:14:23,257] {logging_mixin.py:104} INFO - [2021-12-24 11:14:23,257] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:14:47,891] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:14:47,978] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:14:48,057] {logging_mixin.py:104} INFO - [2021-12-24 11:14:48,057] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:14:48,168] {logging_mixin.py:104} INFO - [2021-12-24 11:14:48,168] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:11:07.235593+00:00
+[2021-12-24 11:14:48,241] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 25.046 seconds
+[2021-12-24 11:15:21,595] {scheduler_job.py:182} INFO - Started process (PID=264) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:15:21,598] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:15:21,616] {logging_mixin.py:104} INFO - [2021-12-24 11:15:21,615] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:15:42,354] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:15:42,388] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:15:42,431] {logging_mixin.py:104} INFO - [2021-12-24 11:15:42,431] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:15:42,459] {logging_mixin.py:104} INFO - [2021-12-24 11:15:42,456] {dag.py:1837} INFO - Creating ORM DAG for classification
+[2021-12-24 11:15:42,470] {logging_mixin.py:104} INFO - [2021-12-24 11:15:42,470] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:10:42.469860+00:00
+[2021-12-24 11:15:42,560] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 21.000 seconds
+[2021-12-24 11:16:13,250] {scheduler_job.py:182} INFO - Started process (PID=267) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:16:13,280] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:16:13,284] {logging_mixin.py:104} INFO - [2021-12-24 11:16:13,284] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:16:29,501] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:16:29,691] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:16:29,778] {logging_mixin.py:104} INFO - [2021-12-24 11:16:29,777] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:16:29,914] {logging_mixin.py:104} INFO - [2021-12-24 11:16:29,914] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:11:29.913876+00:00
+[2021-12-24 11:16:29,987] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 16.758 seconds
+[2021-12-24 11:17:05,572] {scheduler_job.py:182} INFO - Started process (PID=274) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:17:05,602] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:17:05,634] {logging_mixin.py:104} INFO - [2021-12-24 11:17:05,634] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:17:23,688] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:17:23,884] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:17:23,938] {logging_mixin.py:104} INFO - [2021-12-24 11:17:23,937] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:17:24,006] {logging_mixin.py:104} INFO - [2021-12-24 11:17:24,006] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:12:24.000532+00:00
+[2021-12-24 11:17:24,039] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 18.513 seconds
+[2021-12-24 11:17:54,746] {scheduler_job.py:182} INFO - Started process (PID=280) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:17:54,758] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:17:54,761] {logging_mixin.py:104} INFO - [2021-12-24 11:17:54,761] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:18:19,742] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:18:20,054] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:18:20,146] {logging_mixin.py:104} INFO - [2021-12-24 11:18:20,146] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:18:20,325] {logging_mixin.py:104} INFO - [2021-12-24 11:18:20,325] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:13:20.324498+00:00
+[2021-12-24 11:18:20,511] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 25.818 seconds
+[2021-12-24 11:18:51,176] {scheduler_job.py:182} INFO - Started process (PID=286) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:18:51,183] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:18:51,189] {logging_mixin.py:104} INFO - [2021-12-24 11:18:51,188] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:19:12,758] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:19:13,256] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:19:13,438] {logging_mixin.py:104} INFO - [2021-12-24 11:19:13,438] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:19:13,655] {logging_mixin.py:104} INFO - [2021-12-24 11:19:13,655] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:14:13.654110+00:00
+[2021-12-24 11:19:13,918] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 22.761 seconds
+[2021-12-24 11:22:04,764] {scheduler_job.py:182} INFO - Started process (PID=24) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:22:04,816] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:22:04,848] {logging_mixin.py:104} INFO - [2021-12-24 11:22:04,833] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:22:27,828] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:22:27,850] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:22:27,875] {logging_mixin.py:104} INFO - [2021-12-24 11:22:27,875] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:22:27,915] {logging_mixin.py:104} INFO - [2021-12-24 11:22:27,915] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:17:27.913806+00:00
+[2021-12-24 11:22:27,940] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 23.300 seconds
+[2021-12-24 11:22:58,677] {scheduler_job.py:182} INFO - Started process (PID=31) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:22:58,690] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:22:58,693] {logging_mixin.py:104} INFO - [2021-12-24 11:22:58,693] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:23:19,596] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:23:19,798] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:23:19,923] {logging_mixin.py:104} INFO - [2021-12-24 11:23:19,922] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:23:20,117] {logging_mixin.py:104} INFO - [2021-12-24 11:23:20,117] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:18:20.116819+00:00
+[2021-12-24 11:23:20,227] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 21.562 seconds
+[2021-12-24 11:23:51,584] {scheduler_job.py:182} INFO - Started process (PID=37) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:23:51,617] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:23:51,649] {logging_mixin.py:104} INFO - [2021-12-24 11:23:51,649] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:24:14,303] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:24:14,538] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:24:14,656] {logging_mixin.py:104} INFO - [2021-12-24 11:24:14,656] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:24:14,766] {logging_mixin.py:104} INFO - [2021-12-24 11:24:14,765] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:19:14.765346+00:00
+[2021-12-24 11:24:14,880] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 23.304 seconds
+[2021-12-24 11:24:45,247] {scheduler_job.py:182} INFO - Started process (PID=44) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:24:45,252] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:24:45,262] {logging_mixin.py:104} INFO - [2021-12-24 11:24:45,256] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:24:51,630] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:24:51,737] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:24:51,760] {logging_mixin.py:104} INFO - [2021-12-24 11:24:51,760] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:24:51,783] {logging_mixin.py:104} INFO - [2021-12-24 11:24:51,782] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:19:51.782463+00:00
+[2021-12-24 11:24:51,800] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 6.564 seconds
+[2021-12-24 11:25:22,641] {scheduler_job.py:182} INFO - Started process (PID=50) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:25:22,644] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:25:22,646] {logging_mixin.py:104} INFO - [2021-12-24 11:25:22,646] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:25:26,360] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:25:26,370] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:25:26,384] {logging_mixin.py:104} INFO - [2021-12-24 11:25:26,383] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:25:26,402] {logging_mixin.py:104} INFO - [2021-12-24 11:25:26,402] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:20:26.401992+00:00
+[2021-12-24 11:25:26,419] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 3.783 seconds
+[2021-12-24 11:25:56,723] {scheduler_job.py:182} INFO - Started process (PID=56) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:25:56,726] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:25:56,728] {logging_mixin.py:104} INFO - [2021-12-24 11:25:56,727] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:26:00,598] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:26:00,641] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:26:00,669] {logging_mixin.py:104} INFO - [2021-12-24 11:26:00,669] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:26:00,695] {logging_mixin.py:104} INFO - [2021-12-24 11:26:00,695] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:21:00.695208+00:00
+[2021-12-24 11:26:00,712] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 3.994 seconds
+[2021-12-24 11:26:30,888] {scheduler_job.py:182} INFO - Started process (PID=62) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:26:30,890] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:26:30,891] {logging_mixin.py:104} INFO - [2021-12-24 11:26:30,891] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:26:35,963] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:26:35,979] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:26:35,999] {logging_mixin.py:104} INFO - [2021-12-24 11:26:35,998] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:26:36,026] {logging_mixin.py:104} INFO - [2021-12-24 11:26:36,026] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:21:36.026278+00:00
+[2021-12-24 11:26:36,043] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 5.160 seconds
+[2021-12-24 11:27:06,306] {scheduler_job.py:182} INFO - Started process (PID=68) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:27:06,309] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:27:06,312] {logging_mixin.py:104} INFO - [2021-12-24 11:27:06,311] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:27:12,497] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:27:12,509] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:27:12,532] {logging_mixin.py:104} INFO - [2021-12-24 11:27:12,532] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:27:12,563] {logging_mixin.py:104} INFO - [2021-12-24 11:27:12,562] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:22:12.562231+00:00
+[2021-12-24 11:27:12,960] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 6.664 seconds
+[2021-12-24 11:27:43,510] {scheduler_job.py:182} INFO - Started process (PID=74) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:27:43,512] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:27:43,514] {logging_mixin.py:104} INFO - [2021-12-24 11:27:43,513] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:27:48,155] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:27:48,182] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:27:48,209] {logging_mixin.py:104} INFO - [2021-12-24 11:27:48,208] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:27:48,232] {logging_mixin.py:104} INFO - [2021-12-24 11:27:48,231] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:22:48.231412+00:00
+[2021-12-24 11:27:48,268] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 4.765 seconds
+[2021-12-24 11:28:18,674] {scheduler_job.py:182} INFO - Started process (PID=80) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:28:18,676] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:28:18,678] {logging_mixin.py:104} INFO - [2021-12-24 11:28:18,678] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:28:22,765] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:28:22,779] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:28:22,794] {logging_mixin.py:104} INFO - [2021-12-24 11:28:22,794] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:28:22,816] {logging_mixin.py:104} INFO - [2021-12-24 11:28:22,816] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:23:22.816001+00:00
+[2021-12-24 11:28:22,832] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 4.163 seconds
+[2021-12-24 11:28:53,263] {scheduler_job.py:182} INFO - Started process (PID=87) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:28:53,265] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:28:53,266] {logging_mixin.py:104} INFO - [2021-12-24 11:28:53,266] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:28:56,835] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:28:56,845] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:28:56,866] {logging_mixin.py:104} INFO - [2021-12-24 11:28:56,866] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:28:56,901] {logging_mixin.py:104} INFO - [2021-12-24 11:28:56,901] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:23:56.900544+00:00
+[2021-12-24 11:28:56,933] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 3.675 seconds
+[2021-12-24 11:29:27,061] {scheduler_job.py:182} INFO - Started process (PID=93) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:29:27,063] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:29:27,064] {logging_mixin.py:104} INFO - [2021-12-24 11:29:27,064] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:29:30,525] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:29:30,539] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:29:30,561] {logging_mixin.py:104} INFO - [2021-12-24 11:29:30,561] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:29:30,606] {logging_mixin.py:104} INFO - [2021-12-24 11:29:30,606] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:24:30.606378+00:00
+[2021-12-24 11:29:30,628] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 3.572 seconds
+[2021-12-24 11:30:01,400] {scheduler_job.py:182} INFO - Started process (PID=99) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:30:01,402] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:30:01,403] {logging_mixin.py:104} INFO - [2021-12-24 11:30:01,403] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:30:04,791] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:30:04,802] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:30:04,815] {logging_mixin.py:104} INFO - [2021-12-24 11:30:04,815] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:30:04,836] {logging_mixin.py:104} INFO - [2021-12-24 11:30:04,836] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:25:04.835684+00:00
+[2021-12-24 11:30:04,853] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 3.457 seconds
+[2021-12-24 11:30:34,961] {scheduler_job.py:182} INFO - Started process (PID=105) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:30:34,964] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:30:34,965] {logging_mixin.py:104} INFO - [2021-12-24 11:30:34,965] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:30:38,563] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:30:38,574] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:30:38,591] {logging_mixin.py:104} INFO - [2021-12-24 11:30:38,591] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:30:38,617] {logging_mixin.py:104} INFO - [2021-12-24 11:30:38,617] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:25:38.616867+00:00
+[2021-12-24 11:30:38,635] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 3.679 seconds
+[2021-12-24 11:31:09,331] {scheduler_job.py:182} INFO - Started process (PID=111) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:31:09,365] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:31:09,384] {logging_mixin.py:104} INFO - [2021-12-24 11:31:09,384] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:31:18,920] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:31:18,938] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:31:18,957] {logging_mixin.py:104} INFO - [2021-12-24 11:31:18,956] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:31:18,982] {logging_mixin.py:104} INFO - [2021-12-24 11:31:18,982] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:26:18.982201+00:00
+[2021-12-24 11:31:19,000] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 9.698 seconds
+[2021-12-24 11:31:49,371] {scheduler_job.py:182} INFO - Started process (PID=117) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:31:49,373] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:31:49,376] {logging_mixin.py:104} INFO - [2021-12-24 11:31:49,375] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:31:55,085] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:31:55,098] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:31:55,120] {logging_mixin.py:104} INFO - [2021-12-24 11:31:55,119] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:31:55,160] {logging_mixin.py:104} INFO - [2021-12-24 11:31:55,160] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:26:55.159636+00:00
+[2021-12-24 11:31:55,226] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 5.862 seconds
+[2021-12-24 11:32:25,572] {scheduler_job.py:182} INFO - Started process (PID=120) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:32:25,574] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:32:25,576] {logging_mixin.py:104} INFO - [2021-12-24 11:32:25,576] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:32:32,647] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:32:32,665] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:32:32,688] {logging_mixin.py:104} INFO - [2021-12-24 11:32:32,688] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:32:32,727] {logging_mixin.py:104} INFO - [2021-12-24 11:32:32,727] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:27:32.723856+00:00
+[2021-12-24 11:32:32,754] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 7.199 seconds
+[2021-12-24 11:33:03,013] {scheduler_job.py:182} INFO - Started process (PID=126) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:33:03,029] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:33:03,032] {logging_mixin.py:104} INFO - [2021-12-24 11:33:03,032] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:33:11,947] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:33:11,979] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:33:12,017] {logging_mixin.py:104} INFO - [2021-12-24 11:33:12,016] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:33:12,068] {logging_mixin.py:104} INFO - [2021-12-24 11:33:12,068] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:28:12.067459+00:00
+[2021-12-24 11:33:12,128] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 9.123 seconds
+[2021-12-24 11:33:42,280] {scheduler_job.py:182} INFO - Started process (PID=132) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:33:42,283] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:33:42,285] {logging_mixin.py:104} INFO - [2021-12-24 11:33:42,284] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:33:49,311] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:33:49,327] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:33:49,344] {logging_mixin.py:104} INFO - [2021-12-24 11:33:49,343] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:33:49,368] {logging_mixin.py:104} INFO - [2021-12-24 11:33:49,368] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:28:49.368347+00:00
+[2021-12-24 11:33:49,389] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 7.117 seconds
+[2021-12-24 11:34:19,522] {scheduler_job.py:182} INFO - Started process (PID=138) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:34:19,524] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:34:19,526] {logging_mixin.py:104} INFO - [2021-12-24 11:34:19,525] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:34:27,106] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:34:27,121] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:34:27,145] {logging_mixin.py:104} INFO - [2021-12-24 11:34:27,145] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:34:27,189] {logging_mixin.py:104} INFO - [2021-12-24 11:34:27,189] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:29:27.188780+00:00
+[2021-12-24 11:34:27,228] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 7.713 seconds
+[2021-12-24 11:34:57,380] {scheduler_job.py:182} INFO - Started process (PID=144) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:34:57,384] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:34:57,387] {logging_mixin.py:104} INFO - [2021-12-24 11:34:57,387] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:35:04,239] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:35:04,251] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:35:04,266] {logging_mixin.py:104} INFO - [2021-12-24 11:35:04,266] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:35:04,290] {logging_mixin.py:104} INFO - [2021-12-24 11:35:04,290] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:30:04.290208+00:00
+[2021-12-24 11:35:04,311] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 6.940 seconds
+[2021-12-24 11:36:31,555] {scheduler_job.py:182} INFO - Started process (PID=23) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:36:31,574] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:36:31,601] {logging_mixin.py:104} INFO - [2021-12-24 11:36:31,600] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:36:45,298] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:36:45,317] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:36:45,355] {logging_mixin.py:104} INFO - [2021-12-24 11:36:45,355] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:36:45,387] {logging_mixin.py:104} INFO - [2021-12-24 11:36:45,387] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:31:45.386482+00:00
+[2021-12-24 11:36:45,420] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 13.914 seconds
+[2021-12-24 11:37:15,971] {scheduler_job.py:182} INFO - Started process (PID=30) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:37:16,003] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:37:16,034] {logging_mixin.py:104} INFO - [2021-12-24 11:37:16,034] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:37:31,274] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:37:31,578] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:37:31,723] {logging_mixin.py:104} INFO - [2021-12-24 11:37:31,722] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:37:31,939] {logging_mixin.py:104} INFO - [2021-12-24 11:37:31,939] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:32:31.938964+00:00
+[2021-12-24 11:37:32,068] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 16.106 seconds
+[2021-12-24 11:38:02,614] {scheduler_job.py:182} INFO - Started process (PID=36) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:38:02,618] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:38:02,619] {logging_mixin.py:104} INFO - [2021-12-24 11:38:02,619] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:38:11,626] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:38:11,661] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:38:11,731] {logging_mixin.py:104} INFO - [2021-12-24 11:38:11,731] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:38:11,821] {logging_mixin.py:104} INFO - [2021-12-24 11:38:11,820] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:33:11.820160+00:00
+[2021-12-24 11:38:11,920] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 9.313 seconds
+[2021-12-24 11:38:42,229] {scheduler_job.py:182} INFO - Started process (PID=42) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:38:42,231] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:38:42,234] {logging_mixin.py:104} INFO - [2021-12-24 11:38:42,233] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:38:49,387] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:38:49,404] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:38:49,427] {logging_mixin.py:104} INFO - [2021-12-24 11:38:49,427] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:38:49,455] {logging_mixin.py:104} INFO - [2021-12-24 11:38:49,455] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:33:49.454439+00:00
+[2021-12-24 11:38:49,491] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 7.275 seconds
+[2021-12-24 11:39:20,145] {scheduler_job.py:182} INFO - Started process (PID=48) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:39:20,148] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:39:20,150] {logging_mixin.py:104} INFO - [2021-12-24 11:39:20,150] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:39:25,095] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:39:25,124] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:39:25,145] {logging_mixin.py:104} INFO - [2021-12-24 11:39:25,144] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:39:25,175] {logging_mixin.py:104} INFO - [2021-12-24 11:39:25,175] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:34:25.174497+00:00
+[2021-12-24 11:39:25,198] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 5.059 seconds
+[2021-12-24 11:39:55,723] {scheduler_job.py:182} INFO - Started process (PID=54) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:39:55,728] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:39:55,735] {logging_mixin.py:104} INFO - [2021-12-24 11:39:55,734] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:40:03,603] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:40:03,621] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:40:03,656] {logging_mixin.py:104} INFO - [2021-12-24 11:40:03,656] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:40:03,686] {logging_mixin.py:104} INFO - [2021-12-24 11:40:03,686] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:35:03.685594+00:00
+[2021-12-24 11:40:03,707] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 7.993 seconds
+[2021-12-24 11:40:34,137] {scheduler_job.py:182} INFO - Started process (PID=61) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:40:34,140] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:40:34,141] {logging_mixin.py:104} INFO - [2021-12-24 11:40:34,141] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:40:38,481] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:40:38,491] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:40:38,504] {logging_mixin.py:104} INFO - [2021-12-24 11:40:38,504] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:40:38,524] {logging_mixin.py:104} INFO - [2021-12-24 11:40:38,523] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:35:38.523639+00:00
+[2021-12-24 11:40:38,546] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 4.414 seconds
+[2021-12-24 11:41:08,784] {scheduler_job.py:182} INFO - Started process (PID=67) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:41:08,787] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:41:08,788] {logging_mixin.py:104} INFO - [2021-12-24 11:41:08,788] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:41:15,623] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:41:15,633] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:41:15,648] {logging_mixin.py:104} INFO - [2021-12-24 11:41:15,647] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:41:15,679] {logging_mixin.py:104} INFO - [2021-12-24 11:41:15,679] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:36:15.678460+00:00
+[2021-12-24 11:41:15,699] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 6.920 seconds
+[2021-12-24 11:41:46,205] {scheduler_job.py:182} INFO - Started process (PID=78) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:41:46,213] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:41:46,215] {logging_mixin.py:104} INFO - [2021-12-24 11:41:46,215] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:41:59,434] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:41:59,465] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:41:59,504] {logging_mixin.py:104} INFO - [2021-12-24 11:41:59,504] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:41:59,545] {logging_mixin.py:104} INFO - [2021-12-24 11:41:59,545] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:36:59.545151+00:00
+[2021-12-24 11:41:59,574] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 13.385 seconds
+[2021-12-24 11:42:30,090] {scheduler_job.py:182} INFO - Started process (PID=80) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:42:30,094] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:42:30,108] {logging_mixin.py:104} INFO - [2021-12-24 11:42:30,108] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:42:50,111] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:42:50,213] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:42:50,312] {logging_mixin.py:104} INFO - [2021-12-24 11:42:50,311] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:42:50,454] {logging_mixin.py:104} INFO - [2021-12-24 11:42:50,454] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:37:50.453196+00:00
+[2021-12-24 11:42:50,570] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 20.505 seconds
+[2021-12-24 11:43:20,935] {scheduler_job.py:182} INFO - Started process (PID=85) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:43:20,940] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:43:20,963] {logging_mixin.py:104} INFO - [2021-12-24 11:43:20,962] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:43:51,399] {logging_mixin.py:104} INFO - [2021-12-24 11:43:51,383] {timeout.py:36} ERROR - Process timed out, PID: 85
+[2021-12-24 11:43:51,481] {logging_mixin.py:104} INFO - [2021-12-24 11:43:51,404] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/classification.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/classification.py", line 162, in <module>
+    dag=dag
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/baseoperator.py", line 89, in __call__
+    obj: BaseOperator = type.__call__(cls, *args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py", line 94, in wrapper
+    result = func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 98, in __init__
+    stacklevel=2,
+  File "/usr/local/lib/python3.6/warnings.py", line 99, in _showwarnmsg
+    msg.file, msg.line)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/settings.py", line 116, in custom_show_warning
+    write_console = _get_rich_console(file or sys.stderr)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/settings.py", line 104, in _get_rich_console
+    import rich.console
+  File "/home/airflow/.local/lib/python3.6/site-packages/rich/console.py", line 40, in <module>
+    from .scope import render_scope
+  File "/home/airflow/.local/lib/python3.6/site-packages/rich/scope.py", line 5, in <module>
+    from .panel import Panel
+  File "/home/airflow/.local/lib/python3.6/site-packages/rich/panel.py", line 3, in <module>
+    from .box import Box, ROUNDED
+  File "/home/airflow/.local/lib/python3.6/site-packages/rich/box.py", line 5, in <module>
+    from ._loop import loop_last
+  File "<frozen importlib._bootstrap>", line 997, in _handle_fromlist
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/classification.py after 30.0s, PID: 85
+[2021-12-24 11:43:51,502] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:43:51,549] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 30.668 seconds
+[2021-12-24 11:44:22,163] {scheduler_job.py:182} INFO - Started process (PID=87) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:44:22,191] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:44:22,197] {logging_mixin.py:104} INFO - [2021-12-24 11:44:22,197] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:44:46,872] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:44:46,965] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:44:47,058] {logging_mixin.py:104} INFO - [2021-12-24 11:44:47,058] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:44:47,204] {logging_mixin.py:104} INFO - [2021-12-24 11:44:47,204] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:42:50.453196+00:00
+[2021-12-24 11:44:47,380] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 25.234 seconds
+[2021-12-24 11:45:18,261] {scheduler_job.py:182} INFO - Started process (PID=92) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:45:18,265] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:45:18,278] {logging_mixin.py:104} INFO - [2021-12-24 11:45:18,277] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:45:40,282] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:45:40,334] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:45:40,411] {logging_mixin.py:104} INFO - [2021-12-24 11:45:40,410] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:45:40,504] {logging_mixin.py:104} INFO - [2021-12-24 11:45:40,503] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:42:50.453196+00:00
+[2021-12-24 11:45:40,582] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 22.382 seconds
+[2021-12-24 11:46:11,116] {scheduler_job.py:182} INFO - Started process (PID=96) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:46:11,131] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:46:11,162] {logging_mixin.py:104} INFO - [2021-12-24 11:46:11,161] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:46:38,328] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:46:38,411] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:46:38,506] {logging_mixin.py:104} INFO - [2021-12-24 11:46:38,505] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:46:38,657] {logging_mixin.py:104} INFO - [2021-12-24 11:46:38,657] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:42:50.453196+00:00
+[2021-12-24 11:46:38,748] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 27.693 seconds
+[2021-12-24 11:47:10,986] {scheduler_job.py:182} INFO - Started process (PID=101) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:47:11,011] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:47:11,027] {logging_mixin.py:104} INFO - [2021-12-24 11:47:11,026] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:47:42,508] {logging_mixin.py:104} INFO - [2021-12-24 11:47:42,491] {timeout.py:36} ERROR - Process timed out, PID: 101
+[2021-12-24 11:47:42,786] {logging_mixin.py:104} INFO - [2021-12-24 11:47:42,552] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/classification.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/classification.py", line 11, in <module>
+    from tensorflow.keras.applications import imagenet_utils
+  File "/usr/local/lib/python3.6/site-packages/keras/api/_v2/keras/__init__.py", line 10, in <module>
+    from keras import __version__
+  File "/usr/local/lib/python3.6/site-packages/keras/__init__.py", line 25, in <module>
+    from keras import models
+  File "/usr/local/lib/python3.6/site-packages/keras/models.py", line 20, in <module>
+    from keras import metrics as metrics_module
+  File "/usr/local/lib/python3.6/site-packages/keras/metrics.py", line 26, in <module>
+    from keras import activations
+  File "/usr/local/lib/python3.6/site-packages/keras/activations.py", line 20, in <module>
+    from keras.layers import advanced_activations
+  File "/usr/local/lib/python3.6/site-packages/keras/layers/__init__.py", line 28, in <module>
+    from keras.engine.base_preprocessing_layer import PreprocessingLayer
+  File "/usr/local/lib/python3.6/site-packages/keras/engine/base_preprocessing_layer.py", line 21, in <module>
+    from keras.engine import data_adapter
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 779, in get_code
+  File "<frozen importlib._bootstrap_external>", line 487, in _compile_bytecode
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/classification.py after 30.0s, PID: 101
+[2021-12-24 11:47:42,807] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:47:43,076] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 32.111 seconds
+[2021-12-24 11:47:43,471] {scheduler_job.py:182} INFO - Started process (PID=103) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:47:43,501] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:47:43,518] {logging_mixin.py:104} INFO - [2021-12-24 11:47:43,518] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:48:03,205] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:48:03,283] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:48:03,433] {scheduler_job.py:596} INFO - Executed failure callback for <TaskInstance: classification.apply_model 2021-12-24 11:37:50.453196+00:00 [failed]> in state failed
+[2021-12-24 11:48:03,497] {logging_mixin.py:104} INFO - [2021-12-24 11:48:03,497] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:48:03,581] {logging_mixin.py:104} INFO - [2021-12-24 11:48:03,581] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:47:50.453196+00:00
+[2021-12-24 11:48:03,680] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 20.249 seconds
+[2021-12-24 11:48:34,769] {scheduler_job.py:182} INFO - Started process (PID=105) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:48:34,785] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:48:34,816] {logging_mixin.py:104} INFO - [2021-12-24 11:48:34,804] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:48:59,343] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:48:59,469] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:48:59,652] {scheduler_job.py:596} INFO - Executed failure callback for <TaskInstance: classification.check_data_exist 2021-12-24 11:47:06.367801+00:00 [failed]> in state failed
+[2021-12-24 11:48:59,801] {logging_mixin.py:104} INFO - [2021-12-24 11:48:59,801] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:48:59,970] {logging_mixin.py:104} INFO - [2021-12-24 11:48:59,969] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:47:50.453196+00:00
+[2021-12-24 11:49:00,104] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 25.389 seconds
+[2021-12-24 11:49:30,662] {scheduler_job.py:182} INFO - Started process (PID=110) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:49:30,685] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:49:30,698] {logging_mixin.py:104} INFO - [2021-12-24 11:49:30,698] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:50:00,913] {logging_mixin.py:104} INFO - [2021-12-24 11:50:00,905] {timeout.py:36} ERROR - Process timed out, PID: 110
+[2021-12-24 11:50:00,986] {logging_mixin.py:104} INFO - [2021-12-24 11:50:00,946] {dagbag.py:305} ERROR - Failed to import: /opt/airflow/dags/classification.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/dagbag.py", line 302, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/classification.py", line 11, in <module>
+    from tensorflow.keras.applications import imagenet_utils
+  File "/usr/local/lib/python3.6/site-packages/keras/api/_v2/keras/__init__.py", line 10, in <module>
+    from keras import __version__
+  File "/usr/local/lib/python3.6/site-packages/keras/__init__.py", line 25, in <module>
+    from keras import models
+  File "/usr/local/lib/python3.6/site-packages/keras/models.py", line 20, in <module>
+    from keras import metrics as metrics_module
+  File "/usr/local/lib/python3.6/site-packages/keras/metrics.py", line 26, in <module>
+    from keras import activations
+  File "/usr/local/lib/python3.6/site-packages/keras/activations.py", line 20, in <module>
+    from keras.layers import advanced_activations
+  File "/usr/local/lib/python3.6/site-packages/keras/layers/__init__.py", line 31, in <module>
+    from keras.layers.preprocessing.image_preprocessing import CenterCrop
+  File "<frozen importlib._bootstrap>", line 971, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 955, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 674, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 779, in get_code
+  File "<frozen importlib._bootstrap_external>", line 487, in _compile_bytecode
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/utils/timeout.py", line 37, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /opt/airflow/dags/classification.py after 30.0s, PID: 110
+[2021-12-24 11:50:01,002] {scheduler_job.py:641} WARNING - No viable dags retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:50:01,225] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 30.601 seconds
+[2021-12-24 11:50:32,297] {scheduler_job.py:182} INFO - Started process (PID=112) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:50:32,314] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:50:32,330] {logging_mixin.py:104} INFO - [2021-12-24 11:50:32,329] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:51:02,245] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:51:02,366] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:51:02,474] {logging_mixin.py:104} INFO - [2021-12-24 11:51:02,474] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:51:02,653] {logging_mixin.py:104} INFO - [2021-12-24 11:51:02,653] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:47:50.453196+00:00
+[2021-12-24 11:51:02,789] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 30.590 seconds
+[2021-12-24 11:51:47,919] {scheduler_job.py:182} INFO - Started process (PID=117) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:51:47,952] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:51:47,969] {logging_mixin.py:104} INFO - [2021-12-24 11:51:47,969] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:52:06,542] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:52:06,568] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:52:06,640] {logging_mixin.py:104} INFO - [2021-12-24 11:52:06,640] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:52:06,715] {logging_mixin.py:104} INFO - [2021-12-24 11:52:06,708] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:47:50.453196+00:00
+[2021-12-24 11:52:06,942] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 19.067 seconds
+[2021-12-24 11:52:37,812] {scheduler_job.py:182} INFO - Started process (PID=122) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:52:37,828] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:52:37,847] {logging_mixin.py:104} INFO - [2021-12-24 11:52:37,838] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:53:01,615] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:53:01,732] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:53:01,804] {logging_mixin.py:104} INFO - [2021-12-24 11:53:01,804] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:53:01,905] {logging_mixin.py:104} INFO - [2021-12-24 11:53:01,904] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:52:50.453196+00:00
+[2021-12-24 11:53:02,009] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 24.243 seconds
+[2021-12-24 11:53:32,379] {scheduler_job.py:182} INFO - Started process (PID=127) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:53:32,385] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:53:32,387] {logging_mixin.py:104} INFO - [2021-12-24 11:53:32,387] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:53:46,646] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:53:46,659] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:53:46,675] {logging_mixin.py:104} INFO - [2021-12-24 11:53:46,675] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:53:46,727] {logging_mixin.py:104} INFO - [2021-12-24 11:53:46,726] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:52:50.453196+00:00
+[2021-12-24 11:53:46,752] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 14.406 seconds
+[2021-12-24 11:54:17,035] {scheduler_job.py:182} INFO - Started process (PID=132) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:54:17,037] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:54:17,040] {logging_mixin.py:104} INFO - [2021-12-24 11:54:17,040] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:54:42,190] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:54:42,536] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:54:42,721] {logging_mixin.py:104} INFO - [2021-12-24 11:54:42,720] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:54:42,871] {logging_mixin.py:104} INFO - [2021-12-24 11:54:42,871] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:52:50.453196+00:00
+[2021-12-24 11:54:43,018] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 26.001 seconds
+[2021-12-24 11:55:13,911] {scheduler_job.py:182} INFO - Started process (PID=137) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:55:13,974] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:55:14,055] {logging_mixin.py:104} INFO - [2021-12-24 11:55:14,055] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:55:41,713] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:55:41,756] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:55:41,797] {logging_mixin.py:104} INFO - [2021-12-24 11:55:41,797] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:55:41,859] {logging_mixin.py:104} INFO - [2021-12-24 11:55:41,859] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:52:50.453196+00:00
+[2021-12-24 11:55:42,122] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 28.260 seconds
+[2021-12-24 11:56:12,623] {scheduler_job.py:182} INFO - Started process (PID=141) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:56:12,633] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:56:12,635] {logging_mixin.py:104} INFO - [2021-12-24 11:56:12,635] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:56:23,900] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:56:23,931] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:56:23,976] {logging_mixin.py:104} INFO - [2021-12-24 11:56:23,976] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:56:24,050] {logging_mixin.py:104} INFO - [2021-12-24 11:56:24,046] {dag.py:1837} INFO - Creating ORM DAG for classification
+[2021-12-24 11:56:24,101] {logging_mixin.py:104} INFO - [2021-12-24 11:56:24,101] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:51:24.100575+00:00
+[2021-12-24 11:56:24,189] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 11.587 seconds
+[2021-12-24 11:56:54,501] {scheduler_job.py:182} INFO - Started process (PID=146) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:56:54,507] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:56:54,527] {logging_mixin.py:104} INFO - [2021-12-24 11:56:54,527] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:57:14,068] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:57:14,119] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:57:14,174] {logging_mixin.py:104} INFO - [2021-12-24 11:57:14,173] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:57:14,265] {logging_mixin.py:104} INFO - [2021-12-24 11:57:14,264] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:56:24.100575+00:00
+[2021-12-24 11:57:14,365] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 19.893 seconds
+[2021-12-24 11:57:44,889] {scheduler_job.py:182} INFO - Started process (PID=151) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:57:44,893] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:57:44,895] {logging_mixin.py:104} INFO - [2021-12-24 11:57:44,895] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:58:04,333] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:58:04,350] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:58:04,375] {logging_mixin.py:104} INFO - [2021-12-24 11:58:04,375] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:58:04,411] {logging_mixin.py:104} INFO - [2021-12-24 11:58:04,411] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:56:24.100575+00:00
+[2021-12-24 11:58:04,433] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 19.563 seconds
+[2021-12-24 11:58:35,591] {scheduler_job.py:182} INFO - Started process (PID=156) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:58:35,603] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:58:35,616] {logging_mixin.py:104} INFO - [2021-12-24 11:58:35,608] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:58:57,364] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:58:57,442] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:58:57,569] {logging_mixin.py:104} INFO - [2021-12-24 11:58:57,569] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:58:57,651] {logging_mixin.py:104} INFO - [2021-12-24 11:58:57,651] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:56:24.100575+00:00
+[2021-12-24 11:58:57,701] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 22.129 seconds
+[2021-12-24 11:59:28,307] {scheduler_job.py:182} INFO - Started process (PID=161) to work on /opt/airflow/dags/classification.py
+[2021-12-24 11:59:28,310] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 11:59:28,312] {logging_mixin.py:104} INFO - [2021-12-24 11:59:28,311] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 11:59:31,902] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 11:59:31,914] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 11:59:31,929] {logging_mixin.py:104} INFO - [2021-12-24 11:59:31,929] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 11:59:31,949] {logging_mixin.py:104} INFO - [2021-12-24 11:59:31,949] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:56:24.100575+00:00
+[2021-12-24 11:59:31,964] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 3.665 seconds
+[2021-12-24 12:00:02,091] {scheduler_job.py:182} INFO - Started process (PID=166) to work on /opt/airflow/dags/classification.py
+[2021-12-24 12:00:02,093] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 12:00:02,094] {logging_mixin.py:104} INFO - [2021-12-24 12:00:02,094] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 12:00:07,313] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 12:00:07,327] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 12:00:07,346] {logging_mixin.py:104} INFO - [2021-12-24 12:00:07,346] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 12:00:07,369] {logging_mixin.py:104} INFO - [2021-12-24 12:00:07,369] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:56:24.100575+00:00
+[2021-12-24 12:00:07,386] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 5.300 seconds
+[2021-12-24 12:00:37,595] {scheduler_job.py:182} INFO - Started process (PID=171) to work on /opt/airflow/dags/classification.py
+[2021-12-24 12:00:37,597] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 12:00:37,599] {logging_mixin.py:104} INFO - [2021-12-24 12:00:37,599] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 12:00:45,684] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 12:00:45,703] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 12:00:45,729] {logging_mixin.py:104} INFO - [2021-12-24 12:00:45,729] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 12:00:45,778] {logging_mixin.py:104} INFO - [2021-12-24 12:00:45,778] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:56:24.100575+00:00
+[2021-12-24 12:00:45,797] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 8.208 seconds
+[2021-12-24 12:01:16,722] {scheduler_job.py:182} INFO - Started process (PID=176) to work on /opt/airflow/dags/classification.py
+[2021-12-24 12:01:16,724] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 12:01:16,726] {logging_mixin.py:104} INFO - [2021-12-24 12:01:16,726] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 12:01:22,190] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 12:01:22,215] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 12:01:22,252] {logging_mixin.py:104} INFO - [2021-12-24 12:01:22,252] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 12:01:22,294] {logging_mixin.py:104} INFO - [2021-12-24 12:01:22,293] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 11:56:24.100575+00:00
+[2021-12-24 12:01:22,316] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 5.600 seconds
+[2021-12-24 12:01:52,451] {scheduler_job.py:182} INFO - Started process (PID=181) to work on /opt/airflow/dags/classification.py
+[2021-12-24 12:01:52,453] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 12:01:52,454] {logging_mixin.py:104} INFO - [2021-12-24 12:01:52,454] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 12:01:56,362] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 12:01:56,373] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 12:01:56,386] {logging_mixin.py:104} INFO - [2021-12-24 12:01:56,386] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 12:01:56,405] {logging_mixin.py:104} INFO - [2021-12-24 12:01:56,405] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 12:01:24.100575+00:00
+[2021-12-24 12:01:56,420] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 3.974 seconds
+[2021-12-24 12:02:26,627] {scheduler_job.py:182} INFO - Started process (PID=186) to work on /opt/airflow/dags/classification.py
+[2021-12-24 12:02:26,629] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 12:02:26,631] {logging_mixin.py:104} INFO - [2021-12-24 12:02:26,630] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 12:02:30,755] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 12:02:30,765] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 12:02:30,781] {logging_mixin.py:104} INFO - [2021-12-24 12:02:30,780] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 12:02:30,802] {logging_mixin.py:104} INFO - [2021-12-24 12:02:30,802] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 12:01:24.100575+00:00
+[2021-12-24 12:02:30,816] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 4.194 seconds
+[2021-12-24 12:03:00,934] {scheduler_job.py:182} INFO - Started process (PID=191) to work on /opt/airflow/dags/classification.py
+[2021-12-24 12:03:00,936] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 12:03:00,937] {logging_mixin.py:104} INFO - [2021-12-24 12:03:00,937] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 12:03:06,320] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 12:03:06,337] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 12:03:06,377] {logging_mixin.py:104} INFO - [2021-12-24 12:03:06,377] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 12:03:06,409] {logging_mixin.py:104} INFO - [2021-12-24 12:03:06,408] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 12:01:24.100575+00:00
+[2021-12-24 12:03:06,427] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 5.498 seconds
+[2021-12-24 12:03:36,546] {scheduler_job.py:182} INFO - Started process (PID=196) to work on /opt/airflow/dags/classification.py
+[2021-12-24 12:03:36,549] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 12:03:36,551] {logging_mixin.py:104} INFO - [2021-12-24 12:03:36,550] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 12:03:40,861] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 12:03:40,873] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 12:03:40,887] {logging_mixin.py:104} INFO - [2021-12-24 12:03:40,887] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 12:03:40,906] {logging_mixin.py:104} INFO - [2021-12-24 12:03:40,906] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 12:01:24.100575+00:00
+[2021-12-24 12:03:40,922] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 4.382 seconds
+[2021-12-24 12:04:11,091] {scheduler_job.py:182} INFO - Started process (PID=201) to work on /opt/airflow/dags/classification.py
+[2021-12-24 12:04:11,093] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 12:04:11,099] {logging_mixin.py:104} INFO - [2021-12-24 12:04:11,098] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 12:04:18,421] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 12:04:18,461] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 12:04:18,508] {logging_mixin.py:104} INFO - [2021-12-24 12:04:18,508] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 12:04:18,570] {logging_mixin.py:104} INFO - [2021-12-24 12:04:18,569] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 12:01:24.100575+00:00
+[2021-12-24 12:04:18,598] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 7.519 seconds
+[2021-12-24 12:04:48,813] {scheduler_job.py:182} INFO - Started process (PID=206) to work on /opt/airflow/dags/classification.py
+[2021-12-24 12:04:48,817] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 12:04:48,820] {logging_mixin.py:104} INFO - [2021-12-24 12:04:48,819] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 12:04:56,329] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 12:04:56,350] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 12:04:56,385] {logging_mixin.py:104} INFO - [2021-12-24 12:04:56,385] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 12:04:56,418] {logging_mixin.py:104} INFO - [2021-12-24 12:04:56,418] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 12:01:24.100575+00:00
+[2021-12-24 12:04:56,442] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 7.643 seconds
+[2021-12-24 12:05:26,794] {scheduler_job.py:182} INFO - Started process (PID=211) to work on /opt/airflow/dags/classification.py
+[2021-12-24 12:05:26,815] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 12:05:26,822] {logging_mixin.py:104} INFO - [2021-12-24 12:05:26,822] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 12:05:32,855] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 12:05:32,868] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 12:05:32,887] {logging_mixin.py:104} INFO - [2021-12-24 12:05:32,887] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 12:05:32,914] {logging_mixin.py:104} INFO - [2021-12-24 12:05:32,914] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 12:01:24.100575+00:00
+[2021-12-24 12:05:32,929] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 6.164 seconds
+[2021-12-24 12:06:03,089] {scheduler_job.py:182} INFO - Started process (PID=216) to work on /opt/airflow/dags/classification.py
+[2021-12-24 12:06:03,093] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 12:06:03,095] {logging_mixin.py:104} INFO - [2021-12-24 12:06:03,095] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 12:06:07,076] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 12:06:07,087] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 12:06:07,101] {logging_mixin.py:104} INFO - [2021-12-24 12:06:07,100] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 12:06:07,120] {logging_mixin.py:104} INFO - [2021-12-24 12:06:07,120] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 12:01:24.100575+00:00
+[2021-12-24 12:06:07,136] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 4.073 seconds
+[2021-12-24 12:06:37,251] {scheduler_job.py:182} INFO - Started process (PID=218) to work on /opt/airflow/dags/classification.py
+[2021-12-24 12:06:37,254] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 12:06:37,257] {logging_mixin.py:104} INFO - [2021-12-24 12:06:37,257] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 12:06:44,224] {logging_mixin.py:104} WARNING - /home/airflow/.local/lib/python3.6/site-packages/airflow/utils/decorators.py:94 DeprecationWarning: provide_context is deprecated as of 2.0 and is no longer required
+[2021-12-24 12:06:44,243] {scheduler_job.py:639} INFO - DAG(s) dict_keys(['classification']) retrieved from /opt/airflow/dags/classification.py
+[2021-12-24 12:06:44,272] {logging_mixin.py:104} INFO - [2021-12-24 12:06:44,272] {dag.py:1818} INFO - Sync 1 DAGs
+[2021-12-24 12:06:44,306] {logging_mixin.py:104} INFO - [2021-12-24 12:06:44,306] {dag.py:2273} INFO - Setting next_dagrun for classification to 2021-12-24 12:06:24.100575+00:00
+[2021-12-24 12:06:44,329] {scheduler_job.py:190} INFO - Processing /opt/airflow/dags/classification.py took 7.085 seconds
+[2021-12-24 12:07:14,651] {scheduler_job.py:182} INFO - Started process (PID=223) to work on /opt/airflow/dags/classification.py
+[2021-12-24 12:07:14,680] {scheduler_job.py:629} INFO - Processing file /opt/airflow/dags/classification.py for tasks to queue
+[2021-12-24 12:07:14,689] {logging_mixin.py:104} INFO - [2021-12-24 12:07:14,688] {dagbag.py:448} INFO - Filling up the DagBag from /opt/airflow/dags/classification.py
+[2021-12-24 12:07:23,904] {logging_mixin.py:104} INFO - [2021-12-24 12:07:23,904] {process_utils.py:206} INFO - Waiting up to 5 seconds for processes to exit...

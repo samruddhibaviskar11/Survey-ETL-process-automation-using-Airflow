@@ -1,0 +1,43 @@
+[2021-12-24 11:56:05,262] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: classification.load_data 2021-12-24T11:47:50.453196+00:00 [queued]>
+[2021-12-24 11:56:05,295] {taskinstance.py:851} INFO - Dependencies all met for <TaskInstance: classification.load_data 2021-12-24T11:47:50.453196+00:00 [queued]>
+[2021-12-24 11:56:05,296] {taskinstance.py:1042} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-24 11:56:05,296] {taskinstance.py:1043} INFO - Starting attempt 1 of 2
+[2021-12-24 11:56:05,296] {taskinstance.py:1044} INFO - 
+--------------------------------------------------------------------------------
+[2021-12-24 11:56:05,318] {taskinstance.py:1063} INFO - Executing <Task(PythonOperator): load_data> on 2021-12-24T11:47:50.453196+00:00
+[2021-12-24 11:56:05,336] {standard_task_runner.py:52} INFO - Started process 1332 to run task
+[2021-12-24 11:56:05,349] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'classification', 'load_data', '2021-12-24T11:47:50.453196+00:00', '--job-id', '165', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/classification.py', '--cfg-path', '/tmp/tmpqjtxqg8w', '--error-file', '/tmp/tmpjzjschrl']
+[2021-12-24 11:56:05,369] {standard_task_runner.py:77} INFO - Job 165: Subtask load_data
+[2021-12-24 11:56:05,563] {logging_mixin.py:104} INFO - Running <TaskInstance: classification.load_data 2021-12-24T11:47:50.453196+00:00 [running]> on host 0d76f33c6135
+[2021-12-24 11:56:05,831] {taskinstance.py:1257} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=classification
+AIRFLOW_CTX_TASK_ID=load_data
+AIRFLOW_CTX_EXECUTION_DATE=2021-12-24T11:47:50.453196+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2021-12-24T11:47:50.453196+00:00
+[2021-12-24 11:56:05,908] {taskinstance.py:1455} ERROR - S3 operation failed; code: NoSuchKey, message: Object does not exist, resource: /sourcedata/pikachu_106.jpeg, request_id: 16C3AEDFE2E8CE34, host_id: None, bucket_name: sourcedata, object_name: pikachu_106.jpeg
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1112, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1285, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1315, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 117, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/operators/python.py", line 128, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/classification.py", line 77, in download_file_for_processing
+    source_bucket, image, os.path.join(process_dir,image),
+  File "/usr/local/lib/python3.6/site-packages/minio/api.py", line 1037, in fget_object
+    version_id=version_id,
+  File "/usr/local/lib/python3.6/site-packages/minio/api.py", line 1864, in stat_object
+    query_params=query_params,
+  File "/usr/local/lib/python3.6/site-packages/minio/api.py", line 406, in _execute
+    no_body_trace=no_body_trace,
+  File "/usr/local/lib/python3.6/site-packages/minio/api.py", line 380, in _url_open
+    raise response_error
+minio.error.S3Error: S3 operation failed; code: NoSuchKey, message: Object does not exist, resource: /sourcedata/pikachu_106.jpeg, request_id: 16C3AEDFE2E8CE34, host_id: None, bucket_name: sourcedata, object_name: pikachu_106.jpeg
+[2021-12-24 11:56:05,923] {taskinstance.py:1503} INFO - Marking task as UP_FOR_RETRY. dag_id=classification, task_id=load_data, execution_date=20211224T114750, start_date=20211224T115605, end_date=20211224T115605
+[2021-12-24 11:56:06,007] {local_task_job.py:146} INFO - Task exited with return code 1
